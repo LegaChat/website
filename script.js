@@ -1,182 +1,40 @@
-function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}class BackgroundMaterial extends THREE.RawShaderMaterial {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true,
+    });
+  } else obj[key] = value;
+
+  return obj;
+}
+
+class BackgroundMaterial extends THREE.RawShaderMaterial {
   constructor() {
-    super(BackgroundMaterial.shader);_defineProperty(this, "resize",
-
-
-
-
-
-    () => {
+    super(BackgroundMaterial.shader);
+    _defineProperty(this, "resize", () => {
       this.uniforms.resolution.value.set(
-      window.innerWidth * window.devicePixelRatio,
-      window.innerHeight * window.devicePixelRatio);
+        window.innerWidth * window.devicePixelRatio,
+        window.innerHeight * window.devicePixelRatio
+      );
+    });
+    _defineProperty(
+      this,
+      "loop",
 
-    });_defineProperty(this, "loop",
-
-    timestamp => {
-      requestAnimationFrame(this.loop);
-      this.uniforms.globalTime.value = timestamp / 1000;
-    });addEventListener('resize', this.resize);requestAnimationFrame(this.loop);}}_defineProperty(BackgroundMaterial, "shader", { vertexShader: `
+      (timestamp) => {
+        requestAnimationFrame(this.loop);
+        this.uniforms.globalTime.value = timestamp / 1000;
+      }
+    );
+    addEventListener("resize", this.resize);
+    requestAnimationFrame(this.loop);
+  }
+}
+_defineProperty(BackgroundMaterial, "shader", {
+  vertexShader: `
       attribute vec3 position;
 
       uniform mat4 projectionMatrix;
@@ -185,7 +43,8 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
       void main() {
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
       }
-    `, fragmentShader: `
+    `,
+  fragmentShader: `
       #ifdef GL_ES
       precision mediump float;
       #endif
@@ -201,7 +60,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
       }
 
       vec2 rand2(vec2 p) {
-          p = vec2(dot(p, vec2(12.9898,78.233)), dot(p, vec2(26.65125, 83.054543))); 
+          p = vec2(dot(p, vec2(12.9898,78.233)), dot(p, vec2(26.65125, 83.054543)));
           return fract(sin(p) * 43758.5453);
       }
 
@@ -288,7 +147,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
         return br * (smoothstep(.95, 1., (1. - sqrt(d))));
       }
 
-      float fractalNoise(in vec2 coord, in float persistence, in float lacunarity) {    
+      float fractalNoise(in vec2 coord, in float persistence, in float lacunarity) {
           float n = 0.;
           float frequency = 3.;
           float amplitude = 2.;
@@ -323,7 +182,25 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
         gl_FragColor.rgb += result;
       }
 
-    `, uniforms: { resolution: { value: new THREE.Vector2(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio) }, globalTime: { value: performance.now() / 1000 } }, side: THREE.BackSide });class MountainMaterial extends THREE.ShaderMaterial {constructor() {super(MountainMaterial.shader);}}_defineProperty(MountainMaterial, "shader", { vertexShader: `
+    `,
+  uniforms: {
+    resolution: {
+      value: new THREE.Vector2(
+        window.innerWidth * window.devicePixelRatio,
+        window.innerHeight * window.devicePixelRatio
+      ),
+    },
+    globalTime: { value: performance.now() / 1000 },
+  },
+  side: THREE.BackSide,
+});
+class MountainMaterial extends THREE.ShaderMaterial {
+  constructor() {
+    super(MountainMaterial.shader);
+  }
+}
+_defineProperty(MountainMaterial, "shader", {
+  vertexShader: `
       uniform vec3 mvPosition;
 
       varying vec2 vUv;
@@ -334,7 +211,8 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
         vUv = uv;
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
       }
-    `, fragmentShader: `
+    `,
+  fragmentShader: `
       #ifdef GL_ES
       precision mediump float;
       #endif
@@ -349,7 +227,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
       vec2 rand2(vec2 p)
       {
-          p = vec2(dot(p, vec2(12.9898,78.233)), dot(p, vec2(26.65125, 83.054543))); 
+          p = vec2(dot(p, vec2(12.9898,78.233)), dot(p, vec2(26.65125, 83.054543)));
           return fract(sin(p) * 43758.5453);
       }
 
@@ -373,13 +251,13 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
           .0,
           max(
             max(
-              abs(fract(p.x)-.5)-.25, 
-              3.*(abs(fract(.7*p.x+.4)-.5)-.4) 
+              abs(fract(p.x)-.5)-.25,
+              3.*(abs(fract(.7*p.x+.4)-.5)-.4)
             ),
             max(
-              1.2*(abs(fract(.8*p.x+.6)-.5)-.2), 
-              .3*(abs(fract(.5*p.x+.2)-.5)) 
-            ) 
+              1.2*(abs(fract(.8*p.x+.6)-.5)-.2),
+              .3*(abs(fract(.5*p.x+.2)-.5))
+            )
           )
         );
         float fill = 1.0 - smoothstep(h, h+.001, p.y);
@@ -398,7 +276,24 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
           gl_FragColor.rgb = mix(gl_FragColor.rgb, fogColor, fogFactor);
         #endif
       }
-    `, uniforms: THREE.UniformsLib.fog, fog: true, transparent: true });class TreeMaterial extends THREE.RawShaderMaterial {constructor() {super(TreeMaterial.shader);_defineProperty(this, "loop", timestamp => {requestAnimationFrame(this.loop);this.uniforms.globalTime.value = timestamp / 1000;});requestAnimationFrame(this.loop);}}_defineProperty(TreeMaterial, "shader", { vertexShader: `
+    `,
+  uniforms: THREE.UniformsLib.fog,
+  fog: true,
+  transparent: true,
+});
+
+class TreeMaterial extends THREE.RawShaderMaterial {
+  constructor() {
+    super(TreeMaterial.shader);
+    _defineProperty(this, "loop", (timestamp) => {
+      requestAnimationFrame(this.loop);
+      this.uniforms.globalTime.value = timestamp / 1000;
+    });
+    requestAnimationFrame(this.loop);
+  }
+}
+_defineProperty(TreeMaterial, "shader", {
+  vertexShader: `
       attribute vec3 position;
       attribute vec2 uv;
 
@@ -411,7 +306,8 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
         vUv = uv;
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
       }
-    `, fragmentShader: `
+    `,
+  fragmentShader: `
       #ifdef GL_ES
       precision mediump float;
       #endif
@@ -462,4 +358,64 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
         gl_FragColor = vec4(max(col.rgb * p.y, vec3(0.0)), col.a);
       }
-    `, uniforms: { globalTime: { value: performance.now() / 1000 } }, transparent: true });class Scene {constructor() {_defineProperty(this, "onWindowResize", () => {this.camera.aspect = window.innerWidth / window.innerHeight;this.camera.updateProjectionMatrix();this.renderer.setSize(window.innerWidth, window.innerHeight);});_defineProperty(this, "update", timestamp => {requestAnimationFrame(this.update);this.renderer.render(this.scene, this.camera);});this.camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 5000);this.camera.position.z = 40;this.scene = new THREE.Scene();this.scene.fog = new THREE.Fog(0xFF00FF, 40, 180);this.renderer = new THREE.WebGLRenderer({ antialias: true });this.renderer.setPixelRatio(window.devicePixelRatio);this.renderer.setSize(window.innerWidth, window.innerHeight);document.body.appendChild(this.renderer.domElement);this.clock = new THREE.Clock();window.addEventListener('resize', this.onWindowResize);const backgroundGeometry = new THREE.SphereGeometry(4000, 32, 15);const backgroundMaterial = new BackgroundMaterial();const background = new THREE.Mesh(backgroundGeometry, backgroundMaterial);this.scene.add(background);const treeGeometry = new THREE.PlaneGeometry(200, 200, 1, 1);const treeMaterial = new TreeMaterial();this.tree = new THREE.Mesh(treeGeometry, treeMaterial);this.tree.position.z = 0.1;this.scene.add(this.tree);MountainMaterial.uniforms = { fogColor: { value: this.scene.fog.color }, fogNear: { value: this.scene.fog.near }, fogFar: { value: this.scene.fog.far } };const mountainMaterial = new MountainMaterial();const mountainGeometry = new THREE.PlaneGeometry(600, 200, 1, 1);const mountain = new THREE.Mesh(mountainGeometry, mountainMaterial);mountain.position.set(0, 0, 0);const mountain2 = new THREE.Mesh(mountainGeometry, mountainMaterial);mountain2.position.set(0, -2, -26);const mountain3 = new THREE.Mesh(mountainGeometry, mountainMaterial);mountain3.position.set(0, 0, -35);this.scene.add(mountain);this.scene.add(mountain2);this.scene.add(mountain3);requestAnimationFrame(this.update);}}new Scene();
+    `,
+  uniforms: { globalTime: { value: performance.now() / 1000 } },
+  transparent: true,
+});
+
+class Scene {
+  constructor() {
+    _defineProperty(this, "onWindowResize", () => {
+      this.camera.aspect = window.innerWidth / window.innerHeight;
+      this.camera.updateProjectionMatrix();
+      this.renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+    _defineProperty(this, "update", (timestamp) => {
+      requestAnimationFrame(this.update);
+      this.renderer.render(this.scene, this.camera);
+    });
+    this.camera = new THREE.PerspectiveCamera(
+      70,
+      window.innerWidth / window.innerHeight,
+      1,
+      5000
+    );
+    this.camera.position.z = 40;
+    this.scene = new THREE.Scene();
+    this.scene.fog = new THREE.Fog(0xff00ff, 40, 180);
+    this.renderer = new THREE.WebGLRenderer({ antialias: true });
+    this.renderer.setPixelRatio(window.devicePixelRatio);
+    this.renderer.setSize(window.innerWidth, window.innerHeight);
+    document.getElementById("montain").appendChild(this.renderer.domElement);
+    this.clock = new THREE.Clock();
+    window.addEventListener("resize", this.onWindowResize);
+    const backgroundGeometry = new THREE.SphereGeometry(4000, 32, 15);
+    const backgroundMaterial = new BackgroundMaterial();
+    const background = new THREE.Mesh(backgroundGeometry, backgroundMaterial);
+    this.scene.add(background);
+    const treeGeometry = new THREE.PlaneGeometry(200, 200, 1, 1);
+    const treeMaterial = new TreeMaterial();
+    this.tree = new THREE.Mesh(treeGeometry, treeMaterial);
+    this.tree.position.z = 0.1;
+    this.scene.add(this.tree);
+    MountainMaterial.uniforms = {
+      fogColor: { value: this.scene.fog.color },
+      fogNear: { value: this.scene.fog.near },
+      fogFar: { value: this.scene.fog.far },
+    };
+    const mountainMaterial = new MountainMaterial();
+    const mountainGeometry = new THREE.PlaneGeometry(600, 200, 1, 1);
+    const mountain = new THREE.Mesh(mountainGeometry, mountainMaterial);
+    mountain.position.set(0, 0, 0);
+    const mountain2 = new THREE.Mesh(mountainGeometry, mountainMaterial);
+    mountain2.position.set(0, -2, -26);
+    const mountain3 = new THREE.Mesh(mountainGeometry, mountainMaterial);
+    mountain3.position.set(0, 0, -35);
+    this.scene.add(mountain);
+    this.scene.add(mountain2);
+    this.scene.add(mountain3);
+    requestAnimationFrame(this.update);
+  }
+}
+
+new Scene();
