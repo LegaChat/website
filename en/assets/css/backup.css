@@ -6,7 +6,7 @@
 * Version  : 2.0
 * Author   : Codings
 * Support  : codings.dev
-* 
+*
 ----------------------------------------------*/
 
 /*----------------------------------------------
@@ -19,15 +19,15 @@
 ----------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
-@import url('../../../cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
+@import url('/css/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
 
 /*----------------------------------------------
 
 [ALL CONTENTS]
 
 1. Reset
-2. General 
-3. Section 
+2. General
+3. Section
 4. Helper Class
 5. Header
 6. Slider
@@ -926,7 +926,7 @@ aside {
     color: var(--primary-color);
 }
 
-.sidebar .title {    
+.sidebar .title {
     width: 100%;
     margin-top: 0;
     list-style: none;
@@ -1887,7 +1887,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .full-slider .inner .center,
-.no-slider .inner .center {    
+.no-slider .inner .center {
     width: 100%;
     padding: 2rem 0;
 }
@@ -2041,12 +2041,12 @@ header .navbar-expand .navbar-brand img {
     position: relative;
 }
 
-.full-slider .slide-content .inner .description a, 
+.full-slider .slide-content .inner .description a,
 .no-slider .slide-content .inner .description a {
     font-size: 1.2rem;
 }
 
-.full-slider .slide-content .center .description a, 
+.full-slider .slide-content .center .description a,
 .no-slider .slide-content .center .description a {
     font-size: 1.5rem;
 }
@@ -2895,7 +2895,7 @@ header .navbar-expand .navbar-brand img {
 
 .btn.smaller, .btn.smaller:active, .btn.smaller:focus {
     width: fit-content;
-    box-sizing: content-box; 
+    box-sizing: content-box;
     margin: 0 5px;
     padding: 7.5px 12.5px;
     display: inline-block;
@@ -3009,13 +3009,13 @@ header .navbar-expand .navbar-brand img {
     margin-bottom: 0;
 }
 
-.widget-carousel .card {    
+.widget-carousel .card {
     padding: 25px 5px;
     background-color: var(--primary-bg-color-3);
     box-shadow: none;
 }
 
-.body-mode-dark .widget-carousel .card {    
+.body-mode-dark .widget-carousel .card {
     background-color: var(--secondary-bg-color-3);
     box-shadow: none;
 }
@@ -3764,7 +3764,7 @@ footer .copyright a:not(.btn) {
     body .no-slider.featured .inner .right:before,
     body .no-slider.featured .inner .right:after {
         content: none;
-    }   
+    }
 
     body .full-slider.featured .inner .left .title,
     body .no-slider.featured .inner .left .title,
@@ -3835,7 +3835,7 @@ footer .copyright a:not(.btn) {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -3846,8 +3846,8 @@ footer .copyright a:not(.btn) {
 
     body .card-columns {
         column-count: 3;
-    }    
-    
+    }
+
     body .card-footer {
         margin: 0;
     }
@@ -3919,7 +3919,7 @@ footer .copyright a:not(.btn) {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -3939,7 +3939,7 @@ footer .copyright a:not(.btn) {
     body .modal-body {
         align-items: start;
     }
-    
+
     /* #endregion Modal */
 }
 
@@ -3961,11 +3961,11 @@ footer .copyright a:not(.btn) {
     body h2.featured:before {
         content: none;
     }
-    
+
     /* #endregion General */
 
     /* #region Helper Class */
-    
+
     body .intro .btn {
         margin-top: 30px;
     }
@@ -4014,22 +4014,22 @@ footer .copyright a:not(.btn) {
 
     /* #endregion Header */
 
-    /* #region Slider */    
+    /* #region Slider */
 
-    body .full-slider .slide-content .inner .description, 
+    body .full-slider .slide-content .inner .description,
     body .no-slider .slide-content .inner .description {
         max-width: 100%;
         font-size: 1.2rem;
-    }  
+    }
 
-    body .full-slider .slide-content .inner .description p, 
+    body .full-slider .slide-content .inner .description p,
     body .no-slider .slide-content .inner .description p {
         font-size: 1.2rem;
     }
 
-    body .full-slider .slide-content .inner .left, 
+    body .full-slider .slide-content .inner .left,
     body .no-slider .slide-content .inner .left,
-    body .full-slider .slide-content .inner .right, 
+    body .full-slider .slide-content .inner .right,
     body .no-slider .slide-content .inner .right {
         width: 100%;
     }
@@ -4081,8 +4081,8 @@ footer .copyright a:not(.btn) {
         height: 100%;
         background-color: var(--hero-bg-color);
         opacity: 0;
-    }    
-    
+    }
+
     .slide-content[data-mask-768="0"]:before {
         opacity: 0;
     }
@@ -4090,35 +4090,35 @@ footer .copyright a:not(.btn) {
     .slide-content[data-mask-768="10"]:before {
         opacity: 0.1;
     }
-    
+
     .slide-content[data-mask-768="20"]:before {
         opacity: 0.2;
     }
-    
+
     .slide-content[data-mask-768="30"]:before {
         opacity: 0.3;
     }
-    
+
     .slide-content[data-mask-768="40"]:before {
         opacity: 0.4;
     }
-    
+
     .slide-content[data-mask-768="50"]:before {
         opacity: 0.5;
     }
-    
+
     .slide-content[data-mask-768="60"]:before {
         opacity: 0.6;
     }
-    
+
     .slide-content[data-mask-768="70"]:before {
         opacity: 0.7;
     }
-    
+
     .slide-content[data-mask-768="80"]:before {
         opacity: 0.8;
     }
-    
+
     .slide-content[data-mask-768="90"]:before {
         opacity: 0.9;
     }
@@ -4254,7 +4254,7 @@ footer .copyright a:not(.btn) {
     body .card-columns {
         column-count: 1;
     }
-    
+
     /* #endregion Feature */
 }
 
@@ -4267,14 +4267,14 @@ footer .copyright a:not(.btn) {
     body h2.super {
         font-size: 3rem;
     }
-    
+
     /* #endregion General */
 }
 
 /* #endregion All Media Queries */
 
-	
-	
+
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -4352,5 +4352,4 @@ footer .copyright a:not(.btn) {
 	.icon-diamond::before{
 		text-align: left;
 	}
-} 
-
+}
