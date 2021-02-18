@@ -86,8 +86,28 @@ body .odd {
 }
 
 body.body-mode-dark {
-    background-color: var(--secondary-bg-color-2);
-    color: var(--secondary-p-color);
+	background-color: var(--secondary-bg-color-2);
+	color: var(--secondary-p-color);
+}
+
+body > #particles-background {
+	background: #0f1323;
+	color: #dddddd;
+	background-image: linear-gradient(45deg, #1d243d 25%, #0f1323 65%);
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+body > #particles-background > .particles-background-gradient {
+	background-image: linear-gradient(45deg, #1d243dff 25%, #0f132399 65%);
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
 
 ol, ul {
@@ -597,23 +617,6 @@ section {
     background-attachment: fixed;
     background-position: center;
 }
-
-section.hero       { background-color: var(--hero-bg-color); }
-section.section-1  { background-color: var(--section-1-bg-color);  background-image: linear-gradient(45deg, #1d243d 25%, #0f1323 65%); }
-section.section-2  { background-color: var(--section-2-bg-color);  background-image: var(--section-2-bg-image); }
-section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); }
-section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); }
-section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); }
-section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); }
-section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); }
-section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
-section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); }
-section.section-10 { background-color: var(--section-10-bg-color); background-image: var(--section-10-bg-image); }
-section.section-11 { background-color: var(--section-11-bg-color); background-image: var(--section-11-bg-image); }
-section.section-12 { background-color: var(--section-12-bg-color); background-image: var(--section-12-bg-image); }
-section.section-13 { background-color: var(--section-13-bg-color); background-image: var(--section-13-bg-image); }
-section.section-14 { background-color: var(--section-14-bg-color); background-image: var(--section-14-bg-image); }
-section.section-15 { background-color: var(--section-15-bg-color); background-image: var(--section-15-bg-image); }
 
 section.section-vs-0   { padding: 0; }
 section.section-vs-10  { padding: 10px 0; }

@@ -6,7 +6,7 @@
 * Version  : 2.0
 * Author   : Codings
 * Support  : codings.dev
-* 
+*
 ----------------------------------------------*/
 
 /*----------------------------------------------
@@ -15,13 +15,13 @@
 
 1. Preloader
 2. Responsive Menu
-3. Navigation 
-4. Slides 
+3. Navigation
+4. Slides
 5. Particles
 6. Progress Bar
 7. Shuffle
 8. Sign and Register Form
-9. Multi-Step Form 
+9. Multi-Step Form
 10. Simple Form
 11. Recaptcha
 12. Cookie Notice
@@ -40,7 +40,7 @@ jQuery(function ($) {
 
     setTimeout(function() {
         preloader.addClass('ready');
-        
+
     }, preloader.data('timeout'))
 })
 
@@ -141,7 +141,7 @@ jQuery(function ($) {
                     if ($(window).scrollTop() >= window.innerHeight) {
                         navbar.removeClass('visible').addClass('hidden');
                     }
-                }                
+                }
 
                 toTop.fadeOut('fast');
 
@@ -156,7 +156,7 @@ jQuery(function ($) {
                 if ($(window).scrollTop() <= 100 && $('.navbar-holder').length == 0) {
                     navbar.removeClass('navbar-sticky');
 
-                } else {                   
+                } else {
 
                     if(!navbar.hasClass('navbar-no-fixed')) {
                         navbar.addClass('visible');
@@ -201,7 +201,7 @@ jQuery(function ($) {
         let target = $.attr(this, 'href');
 
         if($(target).length > 0) {
-        
+
             if (href.length > 1 && href.indexOf('#') != -1) {
                 $('html, body').animate({
                     scrollTop: $(target).offset().top
@@ -493,26 +493,26 @@ jQuery(function($) {
 
         $(document).one('inview', item, function(event, inview) {
 
-            if (inview) {            
-    
+            if (inview) {
+
                 $(item).each(function() {
-    
+
                     var percent = $(this).data('percent');
                     var pcolor  = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
                     var scolor  = getComputedStyle(document.documentElement).getPropertyValue('--secondary-color');
-    
+
                     if ( $(section).hasClass('odd')) {
                         var tmode = 'rgba(255, 255, 255, 0.075)';
                     } else {
                         var tmode = 'rgba(0, 0, 0, 0.075)';
                     }
 
-                    if ( $(this).data('symbol') ) {                        
+                    if ( $(this).data('symbol') ) {
                         var custom_symbol = $(this).data('symbol');
                     } else {
                         var custom_symbol = '%';
                     }
-    
+
                     if ( $(section).hasClass('preloader') || $(section).hasClass('skills')) {
                         var symbol = '<i>'+custom_symbol+'</i>';
                     } else {
@@ -524,19 +524,19 @@ jQuery(function($) {
                     } else {
                         var height = 120;
                     }
-    
+
                     $(this).radialProgress({
                         value: (percent / 100),
                         size: height,
                         thickness: 10,
                         lineCap: 'butt',
                         emptyFill: tmode,
-                        animation: { 
-                            duration: duration, 
-                            easing: "radialProgressEasing" 
+                        animation: {
+                            duration: duration,
+                            easing: "radialProgressEasing"
                         },
                         fill: {
-                            gradient: [[pcolor, 0.1], [scolor, 1]], 
+                            gradient: [[pcolor, 0.1], [scolor, 1]],
                             gradientAngle: Math.PI / 4
                         }
                     }).on('radial-animation-progress', function(event, progress) {
@@ -546,7 +546,7 @@ jQuery(function($) {
             }
         })
     }
-    
+
     let preloader = $('.preloader');
     let preloader_timeout = ( preloader.data('timeout') - 300);
 
@@ -571,18 +571,18 @@ jQuery(function ($) {
         $(this).find('.filter-item').removeClass('filter-item').addClass('filter-item-'+count);
         $(this).find('.filter-sizer').removeClass('filter-sizer').addClass('filter-sizer-'+count);
         $(this).find('.btn-filter-item').removeClass('btn-filter-item').addClass('btn-filter-item-'+count);
-        
+
         var Shuffle = window.Shuffle;
         var Filter  = new Shuffle(document.querySelector('.filter-items-'+count), {
             itemSelector: '.filter-item-'+count,
             sizer: '.filter-sizer-'+count,
             buffer: 1,
         })
-    
+
         $('.btn-filter-item-'+count).on('change', function (e) {
-    
+
             var input = e.currentTarget;
-            
+
             if (input.checked) {
                 Filter.filter(input.value);
             }
@@ -598,11 +598,11 @@ jQuery(function ($) {
 
     'use strict';
 
-    $(document).on('click', 'a[data-target="#register"]', function() { 
+    $(document).on('click', 'a[data-target="#register"]', function() {
         $('#sign').modal('hide');
     })
 
-    $(document).on('click', 'a[data-target="#sign"]', function() { 
+    $(document).on('click', 'a[data-target="#sign"]', function() {
         $('#register').modal('hide');
     })
 
@@ -625,11 +625,11 @@ jQuery(function ($) {
         let url     = $('#leverage-form').attr('action');
         let email   = $('#leverage-form .field-email').val();
         let wpnonce = $('#leverage_form_wpnonce').val();
-        let data    = { 
-            'email':email, 
-            'step':'check_email', 
-            'action':'leverage_contact_form', 
-            'section':'leverage_form', 
+        let data    = {
+            'email':email,
+            'step':'check_email',
+            'action':'leverage_contact_form',
+            'section':'leverage_form',
             'leverage_form_wpnonce':wpnonce
         };
 
@@ -641,15 +641,15 @@ jQuery(function ($) {
                 try {
                     JSON.parse(response);
                     var obj = JSON.parse(response);
-                    
+
                     if(obj.status == 'invalid' && obj.fields.email == true) {
                         $('#leverage-form .field-email').removeClass('valid').addClass('invalid');
-    
+
                     } else {
                         $('#leverage-form .field-email').removeClass('invalid').addClass('valid');
                         $.valid_email = true;
                     }
-    
+
                 } catch (e) {
                     alert('Sorry. We are experiencing problems with our server. Come back later to send your message.');
                 }
@@ -712,12 +712,12 @@ jQuery(function ($) {
                 if (button == sendButton) {
 
                     let height = $('.multi-step-form .success.message').parents().eq(1).height();
-                    let message = $('.multi-step-form .success.message');                            
-                    message.css('height', height);  
-                    message.addClass('active'); 
-                    
+                    let message = $('.multi-step-form .success.message');
+                    message.css('height', height);
+                    message.addClass('active');
+
                     $('.form-content').hide();
-                    
+
                     $('.multi-step-form').submit();
                 }
 
@@ -760,18 +760,18 @@ jQuery(function ($) {
                 $(show).show();
             }
         })
-    }   
+    }
 
-    function submissionDone() {                
+    function submissionDone() {
         if(leverage_form.hasClass('redirect-sending')) {
             window.location.href = leverage_form.data('redirect');
-        } else {     
+        } else {
             let wait = $('.multi-step-form .success.message .wait');
             let done = $('.multi-step-form .success.message .done');
 
             wait.hide();
-            done.show();            
-        } 
+            done.show();
+        }
     }
 
     // Progressbar
@@ -786,7 +786,7 @@ jQuery(function ($) {
         $(this).attr('id', 'step-image-'+(index+1));
 
         if(index) {
-            $('#step-image-2, #step-image-3, #step-image-4').hide(); 
+            $('#step-image-2, #step-image-3, #step-image-4').hide();
         }
     })
 
@@ -795,7 +795,7 @@ jQuery(function ($) {
         $(this).attr('id', 'step-title-'+(index+1));
 
         if(index) {
-            $('#step-title-2, #step-title-3').hide(); 
+            $('#step-title-2, #step-title-3').hide();
         }
     })
 
@@ -808,7 +808,7 @@ jQuery(function ($) {
     $('.multi-step-form .step-next').each(function(index) {
         $(this).attr('id', 'step-next-'+(index+1));
     })
-    
+
     // Step Prev [ID]
     $('.multi-step-form .step-prev').each(function(index) {
         $(this).attr('id', 'step-prev-'+(index+2));
@@ -880,9 +880,9 @@ jQuery(function ($) {
             let reCAPTCHA = $('input[name="reCAPTCHA"]');
 
             grecaptcha.ready(function() {
-                grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) { 
-                    reCAPTCHA.val(token); 
-                }) 
+                grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) {
+                    reCAPTCHA.val(token);
+                })
             })
         }
 
@@ -892,7 +892,7 @@ jQuery(function ($) {
             type: 'POST',
             url: url,
             data: leverage_form.serialize(),
-            success: function() {                
+            success: function() {
                 submissionDone();
             }
         })
@@ -926,11 +926,11 @@ jQuery(function ($) {
 
             if ($('input[name="reCAPTCHA"]').length) {
                 let reCAPTCHA = $('input[name="reCAPTCHA"]');
-    
+
                 grecaptcha.ready(function() {
-                    grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) { 
-                        reCAPTCHA.val(token); 
-                    }) 
+                    grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) {
+                        reCAPTCHA.val(token);
+                    })
                 })
             }
 
@@ -940,7 +940,7 @@ jQuery(function ($) {
                 type: 'POST',
                 url: url,
                 data: form.serialize(),
-                success: function(response) {                    
+                success: function(response) {
 
                     try {
                         JSON.parse(response);
@@ -960,20 +960,20 @@ jQuery(function ($) {
                             }, 1200);
 
                             input.each(function() {
-                                let input_name = $(this).attr('name');                     
+                                let input_name = $(this).attr('name');
 
                                 if(obj.fields[input_name] == true) {
-                                    $(ID+' .field-'+input_name).removeClass('valid').addClass('invalid'); 
-                                } else { 
+                                    $(ID+' .field-'+input_name).removeClass('valid').addClass('invalid');
+                                } else {
                                     $(ID+' .field-'+input_name).removeClass('invalid').addClass('valid');
                                 }
                             })
                         } else {
                             btn.removeClass('effect-motion-bg');
                             input.val('').removeClass('invalid').removeClass('valid');
-                            alert.text(obj.info).removeClass('valid').addClass('invalid').fadeIn();                        
-                        
-                        } 
+                            alert.text(obj.info).removeClass('valid').addClass('invalid').fadeIn();
+
+                        }
 
                     } catch (e) {
                         btn.removeClass('effect-motion-bg');
@@ -1000,25 +1000,115 @@ jQuery(function ($) {
     if ($('input[name="reCAPTCHA"]').length) {
 
      let siteKey = "6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"; // Put your site key here
-     
-     if(siteKey) { 
-         $('input[name="reCAPTCHA"]').attr("data-key", siteKey); 
-         grecaptcha.ready(function() { 
-             grecaptcha.execute(siteKey, { action: "create_comment" }).then(function(token) { 
-                 $('input[name="reCAPTCHA"]').val(token); 
-                }) 
-            }) 
-        } 
+
+     if(siteKey) {
+         $('input[name="reCAPTCHA"]').attr("data-key", siteKey);
+         grecaptcha.ready(function() {
+             grecaptcha.execute(siteKey, { action: "create_comment" }).then(function(token) {
+                 $('input[name="reCAPTCHA"]').val(token);
+                })
+            })
+        }
     }
 })
 
 
-
+const particlesParameters = {
+	"particles": {
+		"number": {
+			"value": 80,
+			"density": {
+				"enable": true,
+				"value_area": 800
+			}
+		},
+		"color": { "value": "#EEEEEE" },
+		"shape": {
+			"type": "circle",
+			"stroke": {
+				"width": 0,
+				"color": "#000000"
+			}
+		},
+		"opacity": {
+			"value": 1,
+			"random": false,
+			"anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": .1,
+				"sync": false
+			}
+		},
+		"size": {
+			"value": 3,
+			"random": false,
+			"anim": {
+				"enable": false,
+				"speed": 40,
+				"sync": false
+			}
+		},
+		"line_linked": {
+			"enable": true,
+			"distance": 150,
+			"color": "#EEEEEE",
+			"opacity": 1,
+			"width": 1
+		},
+		"move": {
+			"enable": true,
+			"speed": 6,
+			"direction": "none",
+			"random": false,
+			"straight": false,
+			"out_mode": "out",
+			"attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			}
+		}
+	},
+	"interactivity": {
+		"detect_on": "canvas",
+		"events": {
+			"onhover": {
+				"enable": false,
+				"mode": "grab"
+			},
+			"onclick": {
+				"enable": false,
+				"mode": "repulse"
+			},
+			"resize": true
+		},
+		"modes": {
+			"grab": {
+				"distance": 400,
+				"line_linked": { "opacity": 1 }
+			},
+			"bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			},
+			"repulse": { "distance": 200 },
+			"push": { "particles_nb": 4 },
+			"remove": { "particles_nb": 2 }
+		}
+	},
+	"retina_detect": true
+};
 
 $(document).ready(() => {
-  $(".darkreader").each((i) => {
-    $(".darkreader")[i].innerHTML = ""
-  });
+	$(".darkreader").each((i) => {
+		$(".darkreader")[i].innerHTML = ""
+	});
+
+	particlesJS('particles-background', particlesParameters);
 });
 
 
