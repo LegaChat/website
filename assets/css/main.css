@@ -2857,6 +2857,17 @@ header .navbar-expand .navbar-brand img {
     height: 85%;
 }
 
+.hero-image > img {
+	height: 100%;
+}
+
+.hero-image > img.onIt {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
 .hero-image-left {
     position: absolute;
     left: 10%;

@@ -17,7 +17,7 @@
 				<div class="swiper-wrapper">
 					<!-- Item 1 -->
 					<div class="swiper-slide slide-center">
-						<img class="floating hero-image" src="assets/images/pc.gif" alt="Hero Image" />
+						<?php require_once("views/hero.html"); ?>
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
