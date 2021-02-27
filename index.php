@@ -1,47 +1,21 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+		<title>Dark Moon - Éditeur de logiciel à Toulouse - Entreprise de Cybersécurité à Toulouse- Cygwin Portable</title>
 		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Entreprise de sécurité informatique à Toulouse - Éditeur de logiciel à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity">
 		<meta name="subject" content="Entreprise de sécurité informatique à Toulouse - Éditeur de logiciel à Toulouse">
 		<meta name="author" content="Mehdi FERKATOU">
-		<title>Dark Moon - Éditeur de logiciel à Toulouse - Entreprise de Cybersécurité à Toulouse- Cygwin Portable</title>
-		<link rel="shortcut icon" href="assets/images/LUNE.svg">
-		<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-		<link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-		<link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-		<link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/default.css">
-		<link rel="stylesheet" href="assets/css/theme-light-blue.css">
-		<style>
-			:root {
-				--header-bg-color: #111117;
-				--nav-item-color: #f5f5f5;
-				--top-nav-item-color: #f5f5f5;
-				--hero-bg-color: #03071e;
-
-				--card-bg-color: #16161c;
-
-				--footer-bg-color: #16161c;
-			}
-		</style>
+		<?php require_once("views/head.html"); ?>
 	</head>
 	<body class="home" style=" odd p-0 featured">
-		<div id="particles-background">
-			<div class="particles-background-gradient"></div>
-		</div>
-		<?php require_once("views/header.html"); ?>
+		<?php
+			require_once("views/particles.html");
+			require_once("views/header.html");
+		?>
 		<section class="section-1 p-0 featured left" id="slider">
 			<div class="swiper-container no-slider animation slider-h-100">
 				<div class="swiper-wrapper">
+					<!-- Item 1 -->
 					<div class="swiper-slide slide-center">
 						<img class="floating hero-image" src="assets/images/pc.gif" alt="Hero Image" />
 						<div class="slide-content row" data-mask-768="80">

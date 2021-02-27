@@ -1,100 +1,42 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-
-<head>
-
-        <!-- ==============================================
-        Basic Page Needs
-        =============================================== -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-
+	<head>
 		<title>Dark Moon - Développement Web & Application Web Sur Mesure à Toulouse</title>
-
 		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception, de création et de développement de web application sur mesure à Toulouse | PHP - Symphony - Angular - ReactJS - Python - Drupal - Wordpress - Prestashop">
 		<meta name="subject" content="Agence Web, Développement web, Application Web sur mesure, Toulouse">
 		<meta name="author" content="Mehdi FERKATOU">
-
-        <!-- ==============================================
-        Favicons
-        =============================================== -->
-        <link rel="shortcut icon" href="assets/images/LUNE.PNG">
-        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-
-        <!-- ==============================================
-        Vendor Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <!-- ==============================================
-        Custom Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/default.css">
-        <link rel="stylesheet" href="assets/css/theme-light-blue.css">
-
-        <!-- ==============================================
-        Theme Settings
-        =============================================== -->
-        <style>
-            :root {
-                --header-bg-color: #111117;
-                --nav-item-color: #f5f5f5;
-                --top-nav-item-color: #f5f5f5;
-                --hero-bg-color: #03071e;
-
-                --section-1-bg-color: #f5f5f5;
-                --section-2-bg-color: #111117;
-                --section-3-bg-color: #03071e;
-                --section-4-bg-color: #eeeeee;
-                --section-5-bg-color: #f5f5f5;
-                --section-6-bg-color: #111117;
-
-                --card-bg-color: #16161c;
-
-                --footer-bg-color: #16161c;
-            }
-        </style>
-
-    </head>
-
-    <body class="home" style=" odd p-0 featured">=
-			<?php require_once("views/header.html"); ?>
-
+		<?php require_once("views/head.html"); ?>
+	</head>
+	<body class="home" style=" odd p-0 featured">=
+		<?php
+			require_once("views/particles.html");
+			require_once("views/header.html");
+		?>
 		<section id="slider" class="section-1 p-0 featured left">
-            <div class="swiper-container no-slider animation slider-h-100">
-                <div class="swiper-wrapper">
+			<div class="swiper-container no-slider animation slider-h-100">
+				<div class="swiper-wrapper">
+					<!-- Item 1 -->
+					<div class="swiper-slide slide-center">
+						<img src="assets/images/pc.gif" class="floating hero-image" alt="Hero Image">
+						<div class="slide-content row" data-mask-768="80">
+							<div class="col-12 d-flex inner">
+								<div class="left align-self-center text-center text-md-left">
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Développement d'application web à Toulouse</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application web FullStack (PHP, C#, Java/Angular, NodeJs, ReactJs) pour porteur de projet, PME et client grand compte à Toulouse.</p>
+									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
+										ON VOUS RAPPELLE
+										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination">
 
-                    <!-- Item 1 -->
-                    <div class="swiper-slide slide-center">
-                        <img src="assets/images/pc.gif" class="floating hero-image" alt="Hero Image">
-                        <div class="slide-content row" data-mask-768="80">
-                            <div class="col-12 d-flex inner">
-                                <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Développement d'application web à Toulouse</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application web FullStack (PHP, C#, Java/Angular, NodeJs, ReactJs) pour porteur de projet, PME et client grand compte à Toulouse.</p>
-                                    <a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">ON VOUS RAPPELLE<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i></a>
-							   </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
+				</div>
+			</div>
+		</section>
 
 
         <!-- Services -->
