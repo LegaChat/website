@@ -93,10 +93,10 @@
 	color: var(--primary-b-color);
 	font-weight: 400;
 	border: 2px solid;
-		border-top-color: currentcolor;
-		border-right-color: currentcolor;
-		border-bottom-color: currentcolor;
-		border-left-color: currentcolor;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
 	border-top-color: currentcolor;
 	border-right-color: currentcolor;
 	border-bottom-color: currentcolor;
