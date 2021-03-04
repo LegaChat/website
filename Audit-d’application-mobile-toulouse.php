@@ -331,7 +331,7 @@ width:80% !important;
             </div>
         </section>
 
-        <?php require_once("views/team.html"); ?>
+        <?php require_once("views/team.php"); ?>
 
         <section id="features" class="section-1 odd offers featured">
             <div class="container">

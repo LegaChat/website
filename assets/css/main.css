@@ -11,6 +11,11 @@
 
 @import url('/assets/css/fonts.css');
 
+:root {
+	--primary-color: #1E50BC;
+	--secondary-color: #1a8fe3;
+}
+
 /*----------------------------------------------
 
 [ALL CONTENTS]
