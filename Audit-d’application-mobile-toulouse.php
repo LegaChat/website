@@ -59,35 +59,35 @@
                         <div class="card">
                             <i class="icon icon-basket"></i>
                             <h4>Test d'intrusion PCI</h4>
-                            <p>Destinés à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS-toulouse.html"> En savoir plus</a></p>
+                            <p>Destinés à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS-toulouse.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-screen-smartphone"></i>
                             <h4>Test d'Intrusion Réseau</h4>
-                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Test-d'intrusion-réseau-toulouse.html"> En savoir plus</a></p>
+                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-layers"></i>
                             <h4>Audit de code</h4>
-                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code-toulouse.html"> En savoir plus</a></p>
+                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code-toulouse.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
                             <h4>Audit App Mobile</h4>
-                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Audit-d’application-mobile-toulouse.html"> En savoir plus</a></p>
+                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Audit-d’application-mobile-toulouse.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
                             <h4>Solution de sécurité</h4>
-                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Développement-d'application-web-toulouse.html"> En savoir plus</a></p>
+                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -411,12 +411,12 @@ width:80% !important;
         </section>
 
         <!-- Testimonials -->
-        <section id="testimonials" class="section-1 odd carousel custom featured">
+        <section id="testimonials" class="section-1 odd carousel feedback custom featured">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">
                         <div class="col-12">
-                            <h2>Avis client</h2>
+                            <h2 class="super effect-static-text">Avis client</h2>
                             <p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
                         </div>
                     </div>

@@ -6,7 +6,7 @@
 * Version  : 2.0
 * Author   : Codings
 * Support  : codings.dev
-* 
+*
 ----------------------------------------------*/
 
 /*----------------------------------------------
@@ -24,7 +24,7 @@
 /* #region Root */
 
 :root {
-    
+
     --primary-color: #8070f1;
     --secondary-color: #8070f1;
 }

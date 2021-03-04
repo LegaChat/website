@@ -6,7 +6,7 @@
 * Version  : 2.0
 * Author   : Codings
 * Support  : codings.dev
-* 
+*
 ----------------------------------------------*/
 
 /*----------------------------------------------
@@ -29,11 +29,11 @@
     --h1-font: 'Gilroy', sans-serif;
     --h1-size: 6rem;
     --h1-weight: 900;
-    
+
     --h2-font: 'Poppins', sans-serif;
     --h2-size: 3rem;
     --h2-weight: 600;
-    
+
     --p-font: 'Poppins', sans-serif;
     --p-size: 1rem;
     --p-weight: 400;
@@ -47,13 +47,13 @@
 
     --primary-color: #8070f1;
     --secondary-color: #8070f1;
-    
+
     --white-color: #f9f9f9;
     --black-color: #040402;
     --dark-grey-color: #191919;
 
     --primary-t-color: #2f323a;
-    --secondary-t-color: #f5f5f5; 
+    --secondary-t-color: #f5f5f5;
     --primary-p-color: #6f6f6f;
     --secondary-p-color: #8e8e8e;
     --primary-b-color: #f5f5f5;
@@ -176,13 +176,13 @@ footer .dark-button {
 /* #region Effect */
 
 .effect-static-text {
-    background-color: #fff;
-    background-image: #fff;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-         background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background-color: #fff;
+	background-image: linear-gradient(45deg, #2fcbc4 25%, #7666ff 50%, #2fcbc4);
 	background-size: 200% auto;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	-webkit-animation: effect 1s linear infinite;
 	animation: effect 4s linear infinite;
 	color: var(--primary-bg-color);

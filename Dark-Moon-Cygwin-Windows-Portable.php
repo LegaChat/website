@@ -492,7 +492,7 @@ width:80% !important;
         </section>
 
         <!-- Testimonials -->
-        <section id="testimonials" class="section-1 odd carousel custom featured">
+        <section id="testimonials" class="section-1 odd carousel feedback custom featured">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">

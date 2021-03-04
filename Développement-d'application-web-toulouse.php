@@ -425,12 +425,12 @@ width:80% !important;
 				<?php require_once("views/team.html"); ?>
 
         <!-- Testimonials -->
-        <section id="testimonials" class="section-1 odd carousel custom featured">
+        <section id="testimonials" class="section-1 odd carousel feedback custom featured">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">
                         <div class="col-12">
-                            <h2>Avis client</h2>
+                            <h2 class="super effect-static-text">Avis client</h2>
                             <p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
                         </div>
                     </div>
