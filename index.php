@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+	// Import libs
+	require_once("libs/builder.php");
+?>
 <html lang="fr">
 	<head>
 		<title>Dark Moon - Éditeur de logiciel à Toulouse - Entreprise de Cybersécurité à Toulouse- Cygwin Portable</title>
@@ -12,10 +16,11 @@
 			require_once("views/particles.html");
 			require_once("views/header.html");
 		?>
-		<section class="section-1 p-0 featured left" id="slider">
+
+		<!-- Slider -->
+		<section id="slider" class="section-1 p-0 featured left">
 			<div class="swiper-container no-slider animation slider-h-100">
 				<div class="swiper-wrapper">
-					<!-- Item 1 -->
 					<div class="swiper-slide slide-center">
 						<?php require_once("views/hero.html"); ?>
 						<div class="slide-content row" data-mask-768="80">
@@ -32,218 +37,208 @@
 						</div>
 					</div>
 				</div>
-				<div class="swiper-pagination">
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
 
+		<!-- Services -->
+		<section id="services" class="section-1 odd offers featured custom">
+			<div class="container">
+				<div class="row text-center intro">
+					<div class="col-12">
+						<h2 class="super effect-static-text">Nos Services</h2>
+						<p class="text-max-800">Construisez le workflow de votre application & site web, créez votre application pentestez votre réseaux, avec les services suivants:</p>
+					</div>
+				</div>
+				<div class="row justify-content-center text-center items">
+					<?php
+						echo(Builder::services([
+							[
+								"icon" => "globe",
+								"h4"   => "Dark Moon Cygwin",
+								"p"    => "Nous distribuons l'application et apportons des modifications pour les utilisateurs",
+								"a"    => "contact.html",
+							], [
+								"icon" => "basket",
+								"h4"   => "Pentest Réseaux",
+								"p"    => "Nous vous proposons une formule d'assistance et de maintenance d'application",
+								"a"    => "contact.html",
+							], [
+								"icon" => "screen-smartphone",
+								"h4"   => "Création Site Web",
+								"p"    => "Nos sites web parfaitement conçus sont adaptés aux mobiles, sûrs, rapides",
+								"a"    => "contact.html",
+							], [
+								"icon" => "layers",
+								"h4"   => "Dev App & API",
+								"p"    => "API hautes performances, adaptées à tout type de modèles commerciaux",
+								"a"    => "contact.html",
+							], [
+								"icon" => "chart",
+								"h4"   => "Création App Mobile",
+								"p"    => "Nous fournissons des services de développement d'applications multiplateformes",
+								"a"    => "contact.html",
+							], [
+								"icon" => "bulb",
+								"h4"   => "Business Intelligence",
+								"p"    => "L’intelligence d'analyse de données permet de découvrir les opportunités",
+								"a"    => "contact.html",
+							]
+						]));
+					?>
 				</div>
 			</div>
 		</section>
 
-	    <!-- Services -->
-	    <section id="services" class="section-1 odd offers featured custom">
-	        <div class="container">
-	            <div class="row text-center intro">
-	                <div class="col-12">
-	                    <h2 class="super effect-static-text">Nos Services</h2>
-	                    <p class="text-max-800">Construisez le workflow de votre application & site web, créez votre application pentestez votre réseaux, avec les services suivants:</p>
-	                </div>
-	            </div>
-	            <div class="row justify-content-center text-center items">
-	                <div class="col-12 col-md-6 col-lg-4 margin-item">
-	                    <div class="card featured">
-	                        <i class="icon icon-globe color-item"></i>
-	                        <h4>Dark Moon Cygwin</h4>
-	                        <p>Nous distribuons l'application et apportons des modifications pour les utilisateurs.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+		<!-- Testimonials -->
+		<section id="testimonials" class="section-1 odd carousel feedback custom featured">
+			<div class="overflow-holder">
+				<div class="container">
+					<div class="row text-center intro">
+						<div class="col-12">
+							<h2 class="super effect-static-text">Partenaires</h2>
+							<p class="text-max-800">Nous avons développé de nombreuses relations d'affaires & partenariats privilégiés avec différents réseaux d'entreprises.</p>
+						</div>
 					</div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card">
-	                        <i class="icon icon-basket"></i>
-	                        <h4>Pentest Réseaux</h4>
-	                        <p>Nous vous proposons une formule d'assistance et de maintenance d'application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card">
-	                        <i class="icon icon-screen-smartphone"></i>
-	                        <h4>Création Site Web</h4>
-	                        <p>Nos sites web parfaitement conçus sont adaptés aux mobiles, sûrs, rapides. <a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card">
-	                        <i class="icon icon-layers"></i>
-	                        <h4>Dev App & API</h4>
-	                        <p>API hautes performances, adaptées à tout type de modèles commerciaux.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card">
-	                        <i class="icon icon-chart"></i>
-	                        <h4>Création App Mobile</h4>
-	                        <p>Nous fournissons des services de développement d'applications multiplateformes.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 margin-item">
-	                    <div class="card featured">
-	                        <i class="icon icon-bulb color-item"></i>
-	                        <h4>Business Intelligence</h4>
-	                        <p>L’intelligence d'analyse de données permet de découvrir les opportunités.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-
-			        <!-- Testimonials -->
-	    <section id="testimonials" class="section-1 odd carousel custom featured">
-	        <div class="overflow-holder">
-	            <div class="container">
-	                <div class="row text-center intro">
-	                    <div class="col-12">
-	                        <h2 class="super effect-static-text">Partenaires</h2>
-	                        <p class="text-max-800">Nous avons développé de nombreuses relations d'affaires & partenariats privilégiés avec différents réseaux d'entreprises.</p>
-	                    </div>
-	                </div>
-	                <div class="swiper-container mid-slider items">
-	                    <div class="swiper-wrapper">
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="box-partenaire row card">
-	                                <div class="col-12">
-	                                    <img class="logo-partenaire ibm" src="assets/images/ibm.png" width="120px" height="80px">
-
-	                                    <p>Dark Moon est membre du réseau IBM Partner depuis Septembre 2020.</p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="box-partenaire row card">
-	                                <div class="col-12">
-	                                    <img class="logo-partenaire microsoft" src="assets/images/microsoft-logo.png"  width="195px" height="90px">
-	                                    <p>Développement UWP avec l'accompagnement des ingénieurs Desktop Bridge.</p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="box-partenaire row card">
-	                                <div class=" col-12">
-	                                    <img class="logo-partenaire unandun" src="assets/images/1&1.png" width="180px" height="120px">
-	                                    <p>Dark Moon est membre du réseau partenaire 1&1 ionos depuis 3 ans.</p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="box-partenaire row card">
-	                                <div class="col-12">
-	                                    <img class="logo-partenaire advanced-installer" src="assets/images/advanced-installer.png" width="170px" height="117px">
-	                                    <p>Distribution de licence logiciel dans le cadre d'un partenariat Open Source.</p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="swiper-pagination"></div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-	<style>
-	/* Décrire l'animation */
-	@keyframes slideDownFadeIN {
-	from {top:-100px;opacity: 0;}
-	to {top:0px;opacity:1;}
-	}
-
-	/* Foncer l'arrière-plan de la fenêtre modale */
-	.modal {
-	display: none;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.4);
-	}
-
-	/* Afficher la fenêtre modale lorsqu'elle est ciblée par un lien supprimer */
-	.modal:target {
-	display: table;
-	position: absolute;
-	}
-
-	/* la fenêtre modale  */
-	.modal-dialog {
-	display: table-cell;
-	vertical-align: middle;
-	}
-
-	/* Le contenu de la modale */
-	.modal-dialog .modal-content {
-	margin: auto;
-	background-color: #f3f3f3;
-	position: relative;
-	padding: 0;
-	outline: 0;
-	border: 1px #777 solid;
-	text-align: justify;
-	width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-	animation-name: slideDownFadeIN;
-	animation-duration: 0.5s;
-	}
-
-	/* Bouton servant à fermer la fenêtre modale */
-	.closebtn {
-	text-decoration: none;
-	float: right;
-	font-size: 35px;
-	font-weight: bold;
-	color: #fff;
-	}
-
-	.closebtn:hover,
-	.closebtn:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-	}
-
-	.container {
-	padding: 2px 16px;
-	}
-
-	@media (max-width: 800px) {
-	.phoneOnly {
-	width:80% !important;
-	}
-	}
-
-	</style>
-
-
-	    <section id="get" class="section-1 hero odd p-0">
-	        <div class="swiper-container no-slider animation slider-h-75">
-	            <div class="swiper-wrapper">
-
-	                <!-- Item 1 -->
-			<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
-				<header class="container pixel-border4k" style="border-radius: 4px;" >
-					<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-					<h2 class="titre-modale super effect-static-text" style="">Expert à Toulouse.</h2>
-				</header>
-				<div class="container container1">
-					<p class="p-modale">Nous sommes animés par la créativité. Nous créons des applications innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
-				<div class="d-sm-inline-flex mt-3">
-	                    <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+					<div class="swiper-container mid-slider items">
+						<div class="swiper-wrapper">
+							<?php
+								echo(Builder::testimonials([
+									[
+										"img" => [
+											"src" => "/assets/images/ibm.png",
+											"h"   => 80,
+											"w"   => 120
+										],
+										"p"   => "Dark Moon est membre du réseau IBM Partner depuis Septembre 2020",
+									], [
+										"img" => [
+											"src" => "/assets/images/microsoft-logo.png",
+											"h"   => 90,
+											"w"   => 195
+										],
+										"p"   => "Développement UWP avec l'accompagnement des ingénieurs Desktop Bridge",
+									], [
+										"img" => [
+											"src" => "/assets/images/1&1.png",
+											"h"   => 120,
+											"w"   => 180
+										],
+										"p"   => "Dark Moon est membre du réseau partenaire 1&1 ionos depuis 3 ans",
+									], [
+										"img" => [
+											"src" => "/assets/images/advanced-installer.png",
+											"h"   => 117,
+											"w"   => 170
+										],
+										"p"   => "Distribution de licence logiciel dans le cadre d'un partenariat Open Source",
+									],
+								]));
+							?>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
 				</div>
-				</div>
-				<p></p>
 			</div>
+		</section>
 
-	            </div>
-	            <div class="swiper-pagination"></div>
-	        </div>
-	    </section>
+		<style>
+			/* Décrire l'animation */
+			@keyframes slideDownFadeIN {
+				from { top: -100px; opacity: 0; }
+				to { top: 0px; opacity: 1; }
+			}
+
+			/* Foncer l'arrière-plan de la fenêtre modale */
+			.modal {
+				display: none;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color: rgb(0, 0, 0);
+				background-color: rgba(0, 0, 0, .4);
+			}
+
+			/* Afficher la fenêtre modale lorsqu'elle est ciblée par un lien supprimer */
+			.modal:target {
+				display: table;
+				position: absolute;
+			}
+
+			/* la fenêtre modale  */
+			.modal-dialog {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			/* Le contenu de la modale */
+			.modal-dialog .modal-content {
+				margin: auto;
+				background-color: #f3f3f3;
+				position: relative;
+				padding: 0;
+				outline: 0;
+				border: 1px #777 solid;
+				text-align: justify;
+				width: 100%;
+				box-shadow:
+					0 4px 8px 0 rgba(0, 0, 0, 0.2),
+					0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				animation-name: slideDownFadeIN;
+				animation-duration: 0.5s;
+			}
+
+			/* Bouton servant à fermer la fenêtre modale */
+			.closebtn {
+				text-decoration: none;
+				float: right;
+				font-size: 35px;
+				font-weight: bold;
+				color: #fff;
+			}
+
+			.closebtn:hover,
+			.closebtn:focus {
+				color: #000;
+				text-decoration: none;
+				cursor: pointer;
+			}
+
+			.container {
+				padding: 2px 16px;
+			}
+
+			@media (max-width: 800px) {
+				.phoneOnly {
+					width:80% !important;
+				}
+			}
+		</style>
+
+		<!-- Get -->
+		<section id="get" class="section-1 hero odd p-0">
+			<div class="swiper-container no-slider animation slider-h-75">
+				<div class="swiper-wrapper">
+					<!-- Item 1 -->
+					<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
+						<header class="container pixel-border4k" style="border-radius: 4px;" >
+							<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
+							<h2 class="titre-modale super effect-static-text" style="">Expert à Toulouse.</h2>
+						</header>
+						<div class="container container1">
+							<p class="p-modale">Nous sommes animés par la créativité. Nous créons des applications innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
+							<div class="d-sm-inline-flex mt-3">
+								<a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+							</div>
+						</div>
+						<p></p>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
 
 
 	    <!-- About [video] -->
@@ -272,7 +267,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Conception d'application web à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly">Dark Moon s'appuit sur plusieurs années d'expérience et peut fournir une large gamme de services de conception <u class="bold-mot">d'application web sur mesure</u> à Toulouse.<a class="ensavoirplus" href="Développement-d'application-web-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Dark Moon s'appuit sur plusieurs années d'expérience et peut fournir une large gamme de services de conception <u class="bold-mot">d'application web sur mesure</u> à Toulouse.<a class="ensavoirplus" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                            <div class="row item">
@@ -281,7 +276,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Développement d'application web en Haute Garonne</h4>
-	                                    <p class="appear p-phoneOnly">Nous avons été amené à collaborer avec de nombreuses entreprises de différentes tailles, de tout secteur tel que les <u class="bold-mot">secteurs B2B</u> dans le domaine financier, sartups, boutique en ligne, médical...<a class="ensavoirplus" href="Développement-d'applications-mobiles-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Nous avons été amené à collaborer avec de nombreuses entreprises de différentes tailles, de tout secteur tel que les <u class="bold-mot">secteurs B2B</u> dans le domaine financier, sartups, boutique en ligne, médical...<a class="ensavoirplus" href="Développement-d'applications-mobiles-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -308,7 +303,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Site Web sur mesure à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Créateurs de site web</u> polyvalents pour offrir à nos clients une gamme complète de services interactifs et vous concevoir des sites web innovants.<a class="ensavoirplus" href="Conception-et-développement-web-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Créateurs de site web</u> polyvalents pour offrir à nos clients une gamme complète de services interactifs et vous concevoir des sites web innovants.<a class="ensavoirplus" href="Conception-et-développement-web-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                            <div class="row item">
@@ -317,7 +312,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Développement web en Occitanie</h4>
-	                                    <p class="appear p-phoneOnly">Nos <u class="bold-mot">créations web</u> génèrent des résultats grâce à notre expertise et notre approche fonctionnelle et notre vision axée sur l'expérience pour atteindre les objectifs commerciaux visés par nos clients.<a class="ensavoirplus" href="Développement-de-sites-web-d'e-commerce-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Nos <u class="bold-mot">créations web</u> génèrent des résultats grâce à notre expertise et notre approche fonctionnelle et notre vision axée sur l'expérience pour atteindre les objectifs commerciaux visés par nos clients.<a class="ensavoirplus" href="Développement-de-sites-web-d'e-commerce-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -358,7 +353,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Développement en Haute garonne</h4>
-	                                    <p class="appear p-phoneOnly">Dark Moon développe et conçoit des <u class="bold-mot">API sur mesure</u>, performante et transparente pour les utilisateurs.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Dark Moon développe et conçoit des <u class="bold-mot">API sur mesure</u>, performante et transparente pour les utilisateurs.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                            <div class="row item">
@@ -367,7 +362,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Intégration d'API à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Intégration d'API</u> entièrement conçue pour aligner vos résultats avec les données d'autres applications.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Intégration d'API</u> entièrement conçue pour aligner vos résultats avec les données d'autres applications.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -395,7 +390,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Politique de sécurité</h4>
-	                                    <p class="appear p-phoneOnly">Pour vous protéger, il est nécessaire de s’appuyer sur des technologies modernes de haute qualité, telles que les antivirus, <u class="bold-mot">les certificats SSL</u>, les pare-feux, la protection des équipements physiques.<a class="ensavoirplus" href="Test-d'intrusion-réseau-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Pour vous protéger, il est nécessaire de s’appuyer sur des technologies modernes de haute qualité, telles que les antivirus, <u class="bold-mot">les certificats SSL</u>, les pare-feux, la protection des équipements physiques.<a class="ensavoirplus" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                            <div class="row item">
@@ -404,7 +399,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Pentest en Haute Garonne</h4>
-	                                    <p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un <u class="bold-mot">test d’intrusion</u> réalisé par un attaquant mettra en évidence les failles de sécurité de votre système informatique.<a class="ensavoirplus text18" href="Pentest-web-toulouse.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un <u class="bold-mot">test d’intrusion</u> réalisé par un attaquant mettra en évidence les failles de sécurité de votre système informatique.<a class="ensavoirplus text18" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -446,7 +441,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Pour qui ?</h4>
-	                                    <p class="appear p-phoneOnly">Pour ceux qui travaillent exclusivement sous <u class="bold-mot">Windows & Windows Server</u> et qui sont ingénieurs réseaux, au sein d’une entreprise soucieuse de la sécurité de son SI, avec un environnement Windows très verrouillé, excluant WSL et la virtualisation.<a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Pour ceux qui travaillent exclusivement sous <u class="bold-mot">Windows & Windows Server</u> et qui sont ingénieurs réseaux, au sein d’une entreprise soucieuse de la sécurité de son SI, avec un environnement Windows très verrouillé, excluant WSL et la virtualisation.<a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                            <div class="row item">
@@ -455,7 +450,7 @@
 	                                </div>
 	                                <div class="col-12 col-md-9 align-self-center">
 	                                    <h4 class="appear h-phoneOnly">Pourquoi ?</h4>
-	                                    <p class="appear p-phoneOnly">Vous souhaiteriez utiliser des scripts bash pour piloter / automatiser les tâches Windows et utiliser des outils d’un environnement de type<u class="bold-mot"> Linux portable</u> depuis votre PC ou une clé USB, Dark Moon est un excellent outil. <a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.html"> En savoir plus</a></p>
+	                                    <p class="appear p-phoneOnly">Vous souhaiteriez utiliser des scripts bash pour piloter / automatiser les tâches Windows et utiliser des outils d’un environnement de type<u class="bold-mot"> Linux portable</u> depuis votre PC ou une clé USB, Dark Moon est un excellent outil. <a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -473,7 +468,7 @@
 	            <div class="container">
 	                <div class="row text-center intro">
 	                    <div class="col-12">
-	                        <h2>Avis client</h2>
+	                        <h2 class="super effect-static-text">Avis client</h2>
 	                        <p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
 	                    </div>
 	                </div>
@@ -607,33 +602,33 @@
 	        </div>
 	    </section>
 
-	    <section id="features" class="section-1 odd offers featured">
-	        <div class="container">
-	            <div class="row justify-content-center text-center items">
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card no-hover">
-	                        <i class="icon icon-globe"></i>
-	                        <h4>Support</h4>
-	                        <p>Tous nos projets sont soutenus par une solide équipe de support et de maintenance.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card no-hover">
-	                        <i class="icon icon-basket"></i>
-	                        <h4>Formation</h4>
-	                        <p>Nos équipes de formateurs vous cadrent pour le maniement de votre application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 item">
-	                    <div class="card no-hover">
-	                        <i class="icon icon-screen-smartphone"></i>
-	                        <h4>Activités</h4>
-	                        <p>Nos services comprennent la stratégie, le conseil, la conception, le développement...<a style="color:#fff" href="contact.html"> En savoir plus</a> </p>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+		<!-- Features -->
+		<section id="features" class="section-1 odd offers featured">
+			<div class="container">
+				<div class="row justify-content-center text-center items">
+					<?php
+						echo(Builder::feature([
+							[
+								"icon" => "globe",
+								"h4"   => "Support",
+								"p"    => "Tous nos projets sont soutenus par une solide équipe de support et de maintenance",
+								"a"    => "contact.html",
+							], [
+								"icon" => "basket",
+								"h4"   => "Formation",
+								"p"    => "Nos équipes de formateurs vous cadrent pour le maniement de votre application",
+								"a"    => "contact.html",
+							], [
+								"icon" => "screen-smartphone",
+								"h4"   => "Activités",
+								"p"    => "Nos services comprennent la stratégie, le conseil, la conception, le développement...",
+								"a"    => "contact.html",
+							]
+						]));
+					?>
+				</div>
+			</div>
+		</section>
 
 	<!-- Pricing -->
 	    <section id="pricing" class="section-1 odd plans featured">
@@ -785,23 +780,23 @@
 	            </div>
 	        </div>
 	    </div>
-	<div id="mentionlegale" class="modal" style="background-color: rgba(30, 35, 52, 0.9);">
-		<div class="modal-dialog">
-			<div class="modal-content phoneOnly" style="width:60%;border-radius:6px;border:0px; background-image: linear-gradient(45deg, #1E2334 25%, #344068 65%);">
-				<header class="container">
-					<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;">×</a>
-					<h2 class="super effect-static-text" style="text-align:left;">Mentions légales</h2>
-				</header>
-				<div class="container">
-					<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
-				<div class="d-sm-inline-flex mt-3">
-	                    <a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+		<div id="mentionlegale" class="modal" style="background-color: rgba(30, 35, 52, 0.9);">
+			<div class="modal-dialog">
+				<div class="modal-content phoneOnly" style="width:60%;border-radius:6px;border:0px; background-image: linear-gradient(45deg, #1E2334 25%, #344068 65%);">
+					<header class="container">
+						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;">×</a>
+						<h2 class="super effect-static-text" style="text-align:left;">Mentions légales</h2>
+					</header>
+					<div class="container">
+						<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
+					<div class="d-sm-inline-flex mt-3">
+						<a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+					</div>
+					</div>
+					<p></p>
 				</div>
-				</div>
-				<p></p>
 			</div>
 		</div>
-	</div>
 	    <!-- Scroll [to top] -->
 	    <div id="scroll-to-top" class="scroll-to-top">
 	        <a href="#header" class="">

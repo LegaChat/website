@@ -956,12 +956,16 @@ aside {
 }
 
 .highlights .items .item .icon {
-    background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, #7666ff 25%, #7666ff 65%);
+    background-image: -webkit-linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
+    background-image: linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
          background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.offers .items .card {
+	height: 350px;
 }
 
 .offers .items .item {
@@ -969,8 +973,8 @@ aside {
 }
 
 .offers .items .item .icon {
-    background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, #8070f1 25%, #8070f1 65%);
+    background-image: -webkit-linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
+    background-image: linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
          background-clip: text;
@@ -1037,12 +1041,12 @@ aside {
 }
 
 .plans .items .item .icon {
-    background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-         background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
+	background-image: linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .plans .items .item .btn {
@@ -4236,6 +4240,10 @@ footer .copyright a:not(.btn) {
     }
 
     /* #endregion Footer */
+
+		.offers .items .card {
+			height: auto;
+		}
 }
 
 @media (max-width: 576px) {
@@ -4388,8 +4396,8 @@ footer .copyright a:not(.btn) {
 }
 
 .color-item{
-	background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-	background-image: linear-gradient(45deg, #8070f1 25%, #8070f1 65%);
+	background-image: -webkit-linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
+	background-image: linear-gradient(45deg, #2fcbc4 25%, #7666ff 65%);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;

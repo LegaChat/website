@@ -422,12 +422,12 @@ width:80% !important;
 				<?php require_once("views/team.html"); ?>
 
         <!-- Testimonials -->
-        <section id="testimonials" class="section-1 odd carousel custom featured">
+        <section id="testimonials" class="section-1 odd carousel feedback custom featured">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">
                         <div class="col-12">
-                            <h2>Avis client</h2>
+                            <h2 class="super effect-static-text">Avis client</h2>
                             <p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
                         </div>
                     </div>
@@ -722,7 +722,7 @@ width:80% !important;
 					<div class="container">
 						<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
 					<div class="d-sm-inline-flex mt-3">
-                        <a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+						<a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
 					</div>
 					<p></p>
