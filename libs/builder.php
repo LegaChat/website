@@ -59,6 +59,60 @@
 
 			return($html);
 		}
+
+		// sort html item swiper content for team div from array data
+		public static function team(array $data): string {
+			$html = "";
+
+			for($i = 0; $i < count($data); $i++) {
+				$html .= "<div class=\"swiper-slide slide-center text-center item\">
+					<div class=\"row card\">
+					<div class=\"col-12\">
+					<img src=\"{$data[$i]['img']}\" alt=\"{$data[$i]['name']}\" class=\"person\">
+					<h4>{$data[$i]['name']}</h4>
+					<p>{$data[$i]['p']}</p>
+					<ul class=\"navbar-nav social share-list ml-auto\">";
+
+				if(isset($data[$i]['yt'])) {
+					$html .= "<li class=\"nav-item\">
+						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['yt']}\" class=\"nav-link\">
+						<i class=\"icon-social-youtube\"></i>
+						</a>
+						</li>";
+				}
+
+				if(isset($data[$i]['fb'])) {
+					$html .= "<li class=\"nav-item\">
+						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['fb']}\" class=\"nav-link\">
+						<i class=\"icon-social-facebook\"></i>
+						</a>
+						</li>";
+				}
+
+				if(isset($data[$i]['in'])) {
+					$html .= "<li class=\"nav-item\">
+						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['in']}\" class=\"nav-link\">
+						<i class=\"icon-social-linkedin\"></i>
+						</a>
+						</li>";
+				}
+
+				if(isset($data[$i]['tt'])) {
+					$html .= "<li class=\"nav-item\">
+						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['tt']}\" class=\"nav-link\">
+						<i class=\"icon-social-twitter\"></i>
+						</a>
+						</li>";
+				}
+
+				$html .= "</ul>
+					</div>
+					</div>
+					</div>";
+			}
+
+			return($html);
+		}
 	}
 
 	/**
