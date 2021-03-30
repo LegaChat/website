@@ -412,8 +412,8 @@
 
 			<?php require_once("views/team.php"); ?>
 
-	    <!-- Testimonials -->
-	    <section id="testimonials" class="section-1 odd carousel custom featured">
+	    <!-- Feedback -->
+	    <section id="feedback" class="section-1 odd carousel custom featured">
 	        <div class="overflow-holder">
 	            <div class="container">
 	                <div class="row text-center intro">

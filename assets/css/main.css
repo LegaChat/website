@@ -2388,20 +2388,45 @@ header .navbar-expand .navbar-brand img {
 }
 
 .card {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    padding: 35px;
-    border: none;
-    border-radius: 2px;
-    background-color: #2d385a;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    transition-timing-function: cubic-bezier(.25, .25, .75, .75);
-    transition-duration: 0.4s;
-    transition-property: opacity, transform;
-    border-top: 6px solid #8070f1;
-    background-color: rgb( 33, 41, 66 ) !important;
+	background-color: rgb(33, 41, 66) !important;
+	border: none;
+	border-radius: 2px;
+	border-top: 6px solid #8070f1;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	padding: 35px;
+	position: relative;
+	transition-timing-function: cubic-bezier(.25, .25, .75, .75);
+	transition-duration: 0.4s;
+	transition-property: opacity, transform;
+	width: 100%;
+	z-index: 1;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card > div {
+	height: 100%;
+	left: 0;
+	padding: 35px;
+	position: absolute;
+	top: 0;
+}
+
+.card .social {
+	bottom: 3em;
+	position: absolute;
+	transform: translateX(-50%);
+}
+
+#testimonials .card {
+	min-height: 350px;
+}
+
+#team .card {
+	min-height: 400px;
+}
+
+#feedback .card {
+	min-height: 450px;
 }
 
 .card.no-hover {
