@@ -758,7 +758,7 @@ width:80% !important;
         <!-- ==============================================
         Google reCAPTCHA // Put your site key here
         =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+        <!--<script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>-->
 
         <!-- ==============================================
         Vendor Scripts
@@ -774,7 +774,6 @@ width:80% !important;
         <script src="assets/js/vendor/animation.min.js"></script>
         <script src="assets/js/vendor/progress-radial.min.js"></script>
         <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
         <script src="assets/js/vendor/shuffle.min.js"></script>
         <script src="assets/js/vendor/particles.min.js"></script>
         <script src="assets/js/main.js"></script>
