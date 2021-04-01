@@ -198,7 +198,7 @@ width:80% !important;
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class=" col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a  >
                             <i class=""></i>
                             <div class=""></div>
@@ -271,7 +271,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -285,7 +285,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class="col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div></div>
@@ -358,7 +358,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class=" col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a >
                             <i class=""></i>
                             <div class=""></div>
@@ -371,7 +371,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class=" col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div></div>

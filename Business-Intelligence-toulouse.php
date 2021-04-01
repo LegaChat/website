@@ -204,7 +204,7 @@ width:80% !important;
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear ">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -277,7 +277,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -290,7 +290,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear ">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -363,7 +363,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -416,7 +416,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/alexandre.svg" alt="Mary Evans" class="person">
                                         <h4>Alexandre</h4>
                                         <p>Site web applicatif livré à temps, Design au top ! Merci à vous.</p>
@@ -442,7 +442,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/nicolas.svg" alt="Sarah Lopez" class="person">
                                         <h4>Nicolas</h4>
                                         <p>Sérieux, à l'écoute et réactif, Merci à vous pour vos conseils B & I.</p>
@@ -465,7 +465,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/pascal.svg" alt="Joseph Hills" class="person">
                                         <h4>Pascal</h4>
                                         <p>Dark Moon s'est montré compétent pour la création de mon e-commerce.</p>
@@ -488,7 +488,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/elodie.svg" alt="Karen Usman" class="person">
                                         <h4>Elodie</h4>
                                         <p>Bonne formation WordPress dispensée par vos soins très efficace.</p>

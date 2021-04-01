@@ -190,367 +190,368 @@
 			</div>
 		</section>
 
+		<!-- About [video] -->
+		<section id="video" class="section-1 highlights image-left">
+			<div class="container">
+				<div class="row appear">
+					<div class="col-12 col-md-6">
+						<a>
+							<i class=""></i>
+							<div class=""></div>
+							<img class="appear floating" src="assets/images/8.svg" class="fit-image" alt="dark moon">
+						</a>
+					</div>
+					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+						<div class="row intro">
+							<div class="col-12 p-0">
+								<h2 class="appear h-phoneOnly super effect-static-text">Application Web sur mesure à toulouse</h2>
+								<p class="appear p-phoneOnly">Un moyen facile de créer des <u class="bold-mot">applications mobiles</u> pour plusieurs appareils !</p>
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-12 p-0">
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-trophy"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Conception d'application web à Toulouse</h4>
+										<p class="appear p-phoneOnly">Dark Moon s'appuit sur plusieurs années d'expérience et peut fournir une large gamme de services de conception <u class="bold-mot">d'application web sur mesure</u> à Toulouse.<a class="ensavoirplus" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-diamond"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Développement d'application web en Haute Garonne</h4>
+										<p class="appear p-phoneOnly">Nous avons été amené à collaborer avec de nombreuses entreprises de différentes tailles, de tout secteur tel que les <u class="bold-mot">secteurs B2B</u> dans le domaine financier, sartups, boutique en ligne, médical...<a class="ensavoirplus" href="Développement-d'applications-mobiles-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-	    <!-- About [video] -->
-	    <section id="video" class="section-1 highlights image-left">
-	        <div class="container">
-	            <div class="row appear">
-				<div class="col-12 col-md-6">
-	                    <a>
-	                        <i class=""></i>
-	                        <div class=""></div>
-	                        <img class="appear floating" src="assets/images/8.svg" class="fit-image" alt="dark moon">
-	                    </a>
-	                </div>
-	                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-	                    <div class="row intro">
-	                        <div class="col-12 p-0">
-	                            <h2 class="appear h-phoneOnly super effect-static-text">Application Web sur mesure à toulouse</h2>
-	                            <p class="appear p-phoneOnly">Un moyen facile de créer des <u class="bold-mot">applications mobiles</u> pour plusieurs appareils !</p>
-	                        </div>
-	                    </div>
-	                    <div class="row items">
-	                        <div class="col-12 p-0">
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-trophy"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Conception d'application web à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly">Dark Moon s'appuit sur plusieurs années d'expérience et peut fournir une large gamme de services de conception <u class="bold-mot">d'application web sur mesure</u> à Toulouse.<a class="ensavoirplus" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-diamond"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Développement d'application web en Haute Garonne</h4>
-	                                    <p class="appear p-phoneOnly">Nous avons été amené à collaborer avec de nombreuses entreprises de différentes tailles, de tout secteur tel que les <u class="bold-mot">secteurs B2B</u> dans le domaine financier, sartups, boutique en ligne, médical...<a class="ensavoirplus" href="Développement-d'applications-mobiles-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-	<section id="video" class="section-1 highlights image-left">
-	        <div class="container">
-	            <div class="row appear">
-	                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-	                    <div class="row intro">
-	                        <div class="col-12 p-0">
-	                            <h2 class="appear h-phoneOnly super effect-static-text">Créateur site web à Toulouse</h2>
-	                            <p class="appear p-phoneOnly">Nos services de développement de <u class="bold-mot2">site web sur mesure</u> à Toulouse.</p>
-	                        </div>
-	                    </div>
-	                    <div class="row items">
-	                        <div class="col-12 p-0">
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-trophy"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Site Web sur mesure à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Créateurs de site web</u> polyvalents pour offrir à nos clients une gamme complète de services interactifs et vous concevoir des sites web innovants.<a class="ensavoirplus" href="Conception-et-développement-web-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-diamond"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Développement web en Occitanie</h4>
-	                                    <p class="appear p-phoneOnly">Nos <u class="bold-mot">créations web</u> génèrent des résultats grâce à notre expertise et notre approche fonctionnelle et notre vision axée sur l'expérience pour atteindre les objectifs commerciaux visés par nos clients.<a class="ensavoirplus" href="Développement-de-sites-web-d'e-commerce-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-				<div class="col-12 col-md-6">
-	                    <a>
-	                        <i class=""></i>
-	                        <div class=""></div>
-	                        <img class="appear floating" src="assets/images/6.svg" class="fit-image" alt="dark moon">
-	                    </a>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-	<section id="video" class="section-1 highlights image-left">
-	        <div class="container">
-	            <div class="row appear">
-				<div class="col-12 col-md-6">
-	                    <a>
-	                        <i class=""></i>
-	                        <div class=""></div>
-	                        <img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
-	                    </a>
-	                </div>
-	                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-	                    <div class="row intro">
-	                        <div class="col-12 p-0">
-	                            <h2 class="appear h-phoneOnly super effect-static-text">Conception d'API à Toulouse</h2>
-	                            <p class="appear p-phoneOnly">Dark Moon pour le <u class="bold-mot">développement</u> et <u class="bold-mot">l'intégration</u> de vos <u class="bold-mot">API</u> sur mesure à Toulouse.</p>
-	                        </div>
-	                    </div>
-	                    <div class="row items">
-	                        <div class="col-12 p-0">
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-trophy"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Développement en Haute garonne</h4>
-	                                    <p class="appear p-phoneOnly">Dark Moon développe et conçoit des <u class="bold-mot">API sur mesure</u>, performante et transparente pour les utilisateurs.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-diamond"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Intégration d'API à Toulouse</h4>
-	                                    <p class="appear p-phoneOnly"><u class="bold-mot">Intégration d'API</u> entièrement conçue pour aligner vos résultats avec les données d'autres applications.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+		<section id="video" class="section-1 highlights image-left">
+			<div class="container">
+				<div class="row appear">
+					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+						<div class="row intro">
+							<div class="col-12 p-0">
+								<h2 class="appear h-phoneOnly super effect-static-text">Créateur site web à Toulouse</h2>
+								<p class="appear p-phoneOnly">Nos services de développement de <u class="bold-mot">site web sur mesure</u> à Toulouse.</p>
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-12 p-0">
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-trophy"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Site Web sur mesure à Toulouse</h4>
+										<p class="appear p-phoneOnly"><u class="bold-mot">Créateurs de site web</u> polyvalents pour offrir à nos clients une gamme complète de services interactifs et vous concevoir des sites web innovants.<a class="ensavoirplus" href="Conception-et-développement-web-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-diamond"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Développement web en Occitanie</h4>
+										<p class="appear p-phoneOnly">Nos <u class="bold-mot">créations web</u> génèrent des résultats grâce à notre expertise et notre approche fonctionnelle et notre vision axée sur l'expérience pour atteindre les objectifs commerciaux visés par nos clients.<a class="ensavoirplus" href="Développement-de-sites-web-d'e-commerce-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="centering col-12 col-md-6">
+						<a>
+							<i class=""></i>
+							<div class=""></div>
+							<img class="appear floating" src="assets/images/6.svg" class="fit-image" alt="dark moon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-	<section id="video" class="section-1 highlights image-left">
-	        <div class="container">
-	            <div class="row appear">
-	                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-	                    <div class="row intro">
-	                        <div class="col-12 p-0">
-	                            <h2 class="appear h-phoneOnly super effect-static-text">Test d'intrusion & Pentest à Toulouse</h2>
-	                            <p class="appear p-phoneOnly">Dark Moon réalise à Toulouse de <u class="bold-mot">tests d’intrusion</u> qui visent à identifier les vulnérabilités des systèmes informatiques avant que ces <u class="bold-mot">failles</u> soient découvertes et exploitées.</p>
-	                        </div>
-	                    </div>
-	                    <div class="row items">
-	                        <div class="col-12 p-0">
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-trophy"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Politique de sécurité</h4>
-	                                    <p class="appear p-phoneOnly">Pour vous protéger, il est nécessaire de s’appuyer sur des technologies modernes de haute qualité, telles que les antivirus, <u class="bold-mot">les certificats SSL</u>, les pare-feux, la protection des équipements physiques.<a class="ensavoirplus" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-diamond"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Pentest en Haute Garonne</h4>
-	                                    <p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un <u class="bold-mot">test d’intrusion</u> réalisé par un attaquant mettra en évidence les failles de sécurité de votre système informatique.<a class="ensavoirplus text18" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-				<div class="col-12 col-md-6">
-	                    <a>
-	                        <i class=""></i>
-	                        <div class=""></div>
-	                        <img class="appear floating" src="assets/images/4.svg" class="fit-image" alt="dark moon">
-	                    </a>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+		<section id="video" class="section-1 highlights image-left">
+			<div class="container">
+				<div class="row appear">
+					<div class="centering col-12 col-md-6">
+						<a>
+							<i class=""></i>
+							<div class=""></div>
+							<img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
+						</a>
+					</div>
+					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+						<div class="row intro">
+							<div class="col-12 p-0">
+								<h2 class="appear h-phoneOnly super effect-static-text">Conception d'API à Toulouse</h2>
+								<p class="appear p-phoneOnly">Dark Moon pour le <u class="bold-mot">développement</u> et <u class="bold-mot">l'intégration</u> de vos <u class="bold-mot">API</u> sur mesure à Toulouse.</p>
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-12 p-0">
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-trophy"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Développement en Haute garonne</h4>
+										<p class="appear p-phoneOnly">Dark Moon développe et conçoit des <u class="bold-mot">API sur mesure</u>, performante et transparente pour les utilisateurs.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-diamond"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Intégration d'API à Toulouse</h4>
+										<p class="appear p-phoneOnly"><u class="bold-mot">Intégration d'API</u> entièrement conçue pour aligner vos résultats avec les données d'autres applications.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-	<section id="video" class="section-1 highlights image-left">
-	        <div class="container">
-	            <div class="row appear">
-				<div class="col-12 col-md-6">
-	                    <a>
-	                        <i class=""></i>
-	                        <div class=""></div>
-	                        <img class="appear floating" src="assets/images/7.svg" class="fit-image" alt="dark moon">
-	                    </a>
-	                </div>
-	                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-	                    <div class="row intro">
-	                        <div class="col-12 p-0">
-	                            <h2 class="appear h-phoneOnly super effect-static-text">Dark Moon Cygwin</h2>
-	                            <p class="appear p-phoneOnly">Dark Moon Cygwin Portable, L’univers « Linux » Portable sous Windows !</p>
-	                        </div>
-	                    </div>
-	                    <div class="row items">
-	                        <div class="col-12 p-0">
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-trophy"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Pour qui ?</h4>
-	                                    <p class="appear p-phoneOnly">Pour ceux qui travaillent exclusivement sous <u class="bold-mot">Windows & Windows Server</u> et qui sont ingénieurs réseaux, au sein d’une entreprise soucieuse de la sécurité de son SI, avec un environnement Windows très verrouillé, excluant WSL et la virtualisation.<a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                            <div class="row item">
-	                                <div class="col-12 col-md-2 align-self-center">
-	                                    <i class="icon icon-diamond"></i>
-	                                </div>
-	                                <div class="col-12 col-md-9 align-self-center">
-	                                    <h4 class="appear h-phoneOnly">Pourquoi ?</h4>
-	                                    <p class="appear p-phoneOnly">Vous souhaiteriez utiliser des scripts bash pour piloter / automatiser les tâches Windows et utiliser des outils d’un environnement de type<u class="bold-mot"> Linux portable</u> depuis votre PC ou une clé USB, Dark Moon est un excellent outil. <a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+		<section id="video" class="section-1 highlights image-left">
+			<div class="container">
+				<div class="row appear">
+					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+						<div class="row intro">
+							<div class="col-12 p-0">
+								<h2 class="appear h-phoneOnly super effect-static-text">Test d'intrusion & Pentest à Toulouse</h2>
+								<p class="appear p-phoneOnly">Dark Moon réalise à Toulouse de <u class="bold-mot">tests d’intrusion</u> qui visent à identifier les vulnérabilités des systèmes informatiques avant que ces <u class="bold-mot">failles</u> soient découvertes et exploitées.</p>
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-12 p-0">
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-trophy"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Politique de sécurité</h4>
+										<p class="appear p-phoneOnly">Pour vous protéger, il est nécessaire de s’appuyer sur des technologies modernes de haute qualité, telles que les antivirus, <u class="bold-mot">les certificats SSL</u>, les pare-feux, la protection des équipements physiques.<a class="ensavoirplus" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-diamond"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Pentest en Haute Garonne</h4>
+										<p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un <u class="bold-mot">test d’intrusion</u> réalisé par un attaquant mettra en évidence les failles de sécurité de votre système informatique.<a class="ensavoirplus text18" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="centering col-12 col-md-6">
+						<a>
+							<i class=""></i>
+							<div class=""></div>
+							<img class="appear floating" src="assets/images/4.svg" class="fit-image" alt="dark moon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<?php require_once("views/team.php"); ?>
+		<section id="video" class="section-1 highlights image-left">
+			<div class="container">
+				<div class="row appear">
+					<div class="centering col-12 col-md-6">
+						<a>
+							<i class=""></i>
+							<div class=""></div>
+							<img class="appear floating" src="assets/images/7.svg" class="fit-image" alt="dark moon">
+						</a>
+					</div>
+					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+						<div class="row intro">
+							<div class="col-12 p-0">
+								<h2 class="appear h-phoneOnly super effect-static-text">Dark Moon Cygwin</h2>
+								<p class="appear p-phoneOnly">Dark Moon Cygwin Portable, L’univers « Linux » Portable sous Windows !</p>
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-12 p-0">
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-trophy"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Pour qui ?</h4>
+										<p class="appear p-phoneOnly">Pour ceux qui travaillent exclusivement sous <u class="bold-mot">Windows & Windows Server</u> et qui sont ingénieurs réseaux, au sein d’une entreprise soucieuse de la sécurité de son SI, avec un environnement Windows très verrouillé, excluant WSL et la virtualisation.<a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
+									</div>
+								</div>
+								<div class="row item">
+									<div class="col-12 col-md-2 align-self-center">
+										<i class="icon icon-diamond"></i>
+									</div>
+									<div class="col-12 col-md-9 align-self-center">
+										<h4 class="appear h-phoneOnly">Pourquoi ?</h4>
+										<p class="appear p-phoneOnly">Vous souhaiteriez utiliser des scripts bash pour piloter / automatiser les tâches Windows et utiliser des outils d’un environnement de type<u class="bold-mot"> Linux portable</u> depuis votre PC ou une clé USB, Dark Moon est un excellent outil. <a class="ensavoirplus" href="Dark-Moon-Cygwin-Windows-Portable.php"> En savoir plus</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-	    <!-- Feedback -->
-	    <section id="feedback" class="section-1 odd carousel custom featured">
-	        <div class="overflow-holder">
-	            <div class="container">
-	                <div class="row text-center intro">
-	                    <div class="col-12">
-	                        <h2 class="super effect-static-text">Avis client</h2>
-	                        <p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
-	                    </div>
-	                </div>
-	                <div class="swiper-container mid-slider items">
-	                    <div class="swiper-wrapper">
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="row card">
-	                                <div class="col-12">
-	                                    <img src="assets/images/hervé.svg" alt="Adams Baker" class="person">
-	                                    <h4>Hervé</h4>
-	                                    <p>Pentest web rapide et efficace, équipe de professionnel que je recommande !</p>
-	                                    <ul class="navbar-nav social share-list ml-auto">
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                    </ul>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="row card">
-	                                <div class="col-12">
-	                                    <img src="assets/images/régis.svg" alt="Mary Evans" class="person">
-	                                    <h4>Régis</h4>
-	                                    <p>Pentest d'intrusion abordable, équipe réactive, Expérience positive.</p>
-	                                    <ul class="navbar-nav social share-list ml-auto">
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-										<li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                    </ul>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="row card">
-	                                <div class="col-12">
-	                                    <img src="assets/images/marc.svg" alt="Sarah Lopez" class="person">
-	                                    <h4>Marc</h4>
-	                                    <p>Équipe de cybersécurité très impliquée et compétente. Merci à vous.</p>
-	                                    <ul class="navbar-nav social share-list ml-auto">
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                    </ul>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="row card">
-	                                <div class="col-12">
-	                                    <img src="assets/images/joachim.svg" alt="Joseph Hills" class="person">
-	                                    <h4>Joachim</h4>
-	                                    <p>Équipe très ouverte, chef de projet compétent en Audit, RAS.</p>
-	                                    <ul class="navbar-nav social share-list ml-auto">
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                    </ul>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div class="swiper-slide slide-center text-center item">
-	                            <div class="row card">
-	                                <div class="col-12">
-	                                    <img src="assets/images/joan.svg" alt="Karen Usman" class="person">
-	                                    <h4>Joan</h4>
-	                                    <p>Équipe de vrais professionnel, j'ai du plaisir à travailler avec vous !</p>
-	                                    <ul class="navbar-nav social share-list ml-auto">
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                        <li class="nav-item">
-	                                            <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-	                                        </li>
-	                                    </ul>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="swiper-pagination"></div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+		<?php require_once("views/team.php"); ?>
+
+		<!-- Feedback -->
+		<section id="feedback" class="section-1 odd carousel custom featured">
+			<div class="overflow-holder">
+				<div class="container">
+					<div class="row text-center intro">
+						<div class="col-12">
+							<h2 class="super effect-static-text">Avis client</h2>
+							<p class="text-max-800">Nos clients sont satisfaits du travail que nous faisons. La plus grande satisfaction est de recevoir la reconnaissance pour ce que nous avons construit. Cela nous motive à nous améliorer encore plus.</p>
+						</div>
+					</div>
+					<div class="swiper-container mid-slider items">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide-center text-center item">
+								<div class="row card">
+									<div class="col-12">
+										<img src="assets/images/hervé.svg" alt="Adams Baker" class="person">
+										<h4>Hervé</h4>
+										<p>Pentest web rapide et efficace, équipe de professionnel que je recommande !</p>
+										<ul class="navbar-nav social share-list ml-auto">
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide slide-center text-center item">
+								<div class="row card">
+									<div class="col-12">
+										<img src="assets/images/régis.svg" alt="Mary Evans" class="person">
+										<h4>Régis</h4>
+										<p>Pentest d'intrusion abordable, équipe réactive, Expérience positive.</p>
+										<ul class="navbar-nav social share-list ml-auto">
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide slide-center text-center item">
+								<div class="row card">
+									<div class="col-12">
+										<img src="assets/images/marc.svg" alt="Sarah Lopez" class="person">
+										<h4>Marc</h4>
+										<p>Équipe de cybersécurité très impliquée et compétente. Merci à vous.</p>
+										<ul class="navbar-nav social share-list ml-auto">
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide slide-center text-center item">
+								<div class="row card">
+									<div class="col-12">
+										<img src="assets/images/joachim.svg" alt="Joseph Hills" class="person">
+										<h4>Joachim</h4>
+										<p>Équipe très ouverte, chef de projet compétent en Audit, RAS.</p>
+										<ul class="navbar-nav social share-list ml-auto">
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide slide-center text-center item">
+								<div class="row card">
+									<div class="col-12">
+										<img src="assets/images/joan.svg" alt="Karen Usman" class="person">
+										<h4>Joan</h4>
+										<p>Équipe de vrais professionnel, j'ai du plaisir à travailler avec vous !</p>
+										<ul class="navbar-nav social share-list ml-auto">
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Features -->
 		<section id="features" class="section-1 odd offers featured">
@@ -580,156 +581,153 @@
 			</div>
 		</section>
 
-	<!-- Pricing -->
-	    <section id="pricing" class="section-1 odd plans featured">
-	        <div class="container">
-	            <div class="row text-center intro">
-	                <div class="col-12">
-	                    <h2 class="super effect-static-text">Plans et tarification</h2>
-	                    <p class="text-max-800">Choisissez la formule web idéale pour ce dont vous avez besoin. Nous travaillons avec des prix abordables pour tous les types de projet.</p>
-	                </div>
-	            </div>
-	            <div class="row justify-content-center text-center items">
-	                <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-	                    <div class="card">
-	                        <i class="icon icon-handbag"></i>
-	                        <h4>Essential</h4>
-	                        <span class="price"><i>€</i>49</span>
-	                        <ul class="list-group list-group-flush">
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Assistance téléphonique</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Système de ticket</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Assistance par e-mail</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Formation</span>
-	                                <i class="icon-min m-0 icon-close text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Infogérance</span>
-	                                <i class="icon-min m-0 icon-close text-right"></i>
-	                            </li>
-	                        </ul>
-	                        <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-	                    <div class="card">
-	                        <i class="icon icon-fire"></i>
-	                        <h4>Standard</h4>
-	                        <span class="price"><i>€</i>99</span>
-	                        <ul class="list-group list-group-flush">
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Formation CMS (Wordpress...)</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Formation solution propriétaire</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Transfert de code & contenu</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Formation Optimisation SEO</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Infogérance</span>
-	                                <i class="icon-min m-0 icon-close text-right"></i>
-	                            </li>
-	                        </ul>
-	                        <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
-	                    </div>
-	                </div>
-	                <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-	                    <div class="card">
-	                        <i class="icon icon-diamond"></i>
-	                        <h4>Premium</h4>
-	                        <span class="price"><i>€</i>129</span>
-	                        <ul class="list-group list-group-flush">
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Sys-Administration Cloud & VPS</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Maintenance et sécurité</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Maintenance site web</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>Distribution CloudFare & SSL</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                            <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-	                                <span>SLA</span>
-	                                <i class="icon-min m-0 icon-check text-right"></i>
-	                            </li>
-	                        </ul>
-	                        <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-
-			        <!-- Get -->
-	    <section id="get" class="section-1 hero odd p-0">
-	        <div class="swiper-container no-slider animation slider-h-75">
-	            <div class="swiper-wrapper">
-
-	                <!-- Item 1 -->
-			<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
-				<header class="container pixel-border4k" style="border-radius: 4px;" >
-					<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-					<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR D'APPLICATION</h2>
-				</header>
-				<div class="container container1">
-					<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'applications, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
-				<div class="d-sm-inline-flex mt-3">
-	                    <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+		<!-- Pricing -->
+		<section id="pricing" class="section-1 odd plans featured">
+			<div class="container">
+				<div class="row text-center intro">
+					<div class="col-12">
+						<h2 class="super effect-static-text">Plans et tarification</h2>
+						<p class="text-max-800">Choisissez la formule web idéale pour ce dont vous avez besoin. Nous travaillons avec des prix abordables pour tous les types de projet.</p>
+					</div>
 				</div>
+				<div class="row justify-content-center text-center items">
+					<div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
+						<div class="card">
+							<i class="icon icon-handbag"></i>
+							<h4>Essential</h4>
+							<span class="price"><i>€</i>49</span>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Assistance téléphonique</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Système de ticket</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Assistance par e-mail</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Formation</span>
+									<i class="icon-min m-0 icon-close text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Infogérance</span>
+									<i class="icon-min m-0 icon-close text-right"></i>
+								</li>
+							</ul>
+							<a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
+						<div class="card">
+							<i class="icon icon-fire"></i>
+							<h4>Standard</h4>
+							<span class="price"><i>€</i>99</span>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Formation CMS (Wordpress...)</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Formation solution propriétaire</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Transfert de code & contenu</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Formation Optimisation SEO</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Infogérance</span>
+									<i class="icon-min m-0 icon-close text-right"></i>
+								</li>
+							</ul>
+							<a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
+						<div class="card">
+							<i class="icon icon-diamond"></i>
+							<h4>Premium</h4>
+							<span class="price"><i>€</i>129</span>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Sys-Administration Cloud & VPS</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Maintenance et sécurité</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Maintenance site web</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>Distribution CloudFare & SSL</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
+									<span>SLA</span>
+									<i class="icon-min m-0 icon-check text-right"></i>
+								</li>
+							</ul>
+							<a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
+						</div>
+					</div>
 				</div>
-				<p></p>
 			</div>
-	            </div>
-	            <div class="swiper-pagination"></div>
-	        </div>
-	    </section>
+		</section>
 
-			<?php require_once("views/footer.html"); ?>
+		<!-- Get -->
+		<section id="get" class="section-1 hero odd p-0">
+			<div class="swiper-container no-slider animation slider-h-75">
+				<div class="swiper-wrapper">
+					<!-- Item 1 -->
+					<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
+						<header class="container pixel-border4k" style="border-radius: 4px;" >
+							<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
+							<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR D'APPLICATION</h2>
+						</header>
+						<div class="container container1">
+							<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'applications, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
+							<div class="d-sm-inline-flex mt-3">
+								<a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+							</div>
+						</div>
+						<p></p>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
 
-	    <!-- Modal [responsive menu] -->
-	    <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-	        <div class="modal-dialog modal-dialog-slideout" role="document">
-	            <div class="modal-content full">
-	                <div class="modal-header" data-dismiss="modal">
-	                    Menu <i class="icon-close"></i>
-	                </div>
-	                <div class="menu modal-body">
-	                    <div class="row w-100">
-	                        <div class="items p-0 col-12 text-center">
-	                            <!-- Append [navbar] -->
-	                        </div>
-	                        <div class="contacts p-0 col-12 text-center">
-	                            <!-- Append [navbar] -->
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
+		<?php require_once("views/footer.html"); ?>
+
+		<!-- Modal [responsive menu] -->
+		<div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-slideout" role="document">
+				<div class="modal-content full">
+					<div class="modal-header" data-dismiss="modal">Menu <i class="icon-close"></i></div>
+					<div class="menu modal-body">
+						<div class="row w-100">
+							<div class="items p-0 col-12 text-center">
+								<!-- Append [navbar] -->
+							</div>
+							<div class="contacts p-0 col-12 text-center">
+								<!-- Append [navbar] -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div id="mentionlegale" class="modal" style="background-color: rgba(30, 35, 52, 0.9);">
 			<div class="modal-dialog">
 				<div class="modal-content phoneOnly" style="width:60%;border-radius:6px;border:0px; background-image: linear-gradient(45deg, #1E2334 25%, #344068 65%);">
@@ -747,12 +745,13 @@
 				</div>
 			</div>
 		</div>
-	    <!-- Scroll [to top] -->
-	    <div id="scroll-to-top" class="scroll-to-top">
-	        <a href="#header" class="">
-	            <i class="icon-arrow-up"></i>
-	        </a>
-	    </div>
+
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
 		<script src="assets/js/vendor/jquery.min.js"></script>
 		<script src="assets/js/vendor/jquery.easing.min.js"></script>
