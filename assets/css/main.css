@@ -2908,15 +2908,14 @@ header .navbar-expand .navbar-brand img {
 }
 
 .hero-image > img.onIt {
-	filter: brightness(65%);
 	height: 100%;
 	left: 50%;
 	position: absolute;
 	top: 50%;
 	transform:
 		translate(-50%, -50%)
-		rotate(1.5deg)
-		scale(1.005);
+		rotate(0deg)
+		scale(1.01);
 	width: 100%;
 	z-index: -1;
 }
