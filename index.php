@@ -745,16 +745,6 @@
 				</div>
 			</div>
 		</div>
-<<<<<<< Updated upstream
-
-		<!-- Scroll [to top] -->
-		<div id="scroll-to-top" class="scroll-to-top">
-			<a href="#header" class="">
-				<i class="icon-arrow-up"></i>
-			</a>
-		</div>
-=======
->>>>>>> Stashed changes
 
 		<!-- Scroll [to top] -->
 		<div id="scroll-to-top" class="scroll-to-top">
