@@ -745,6 +745,16 @@
 				</div>
 			</div>
 		</div>
+<<<<<<< Updated upstream
+
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
+=======
+>>>>>>> Stashed changes
 
 		<!-- Scroll [to top] -->
 		<div id="scroll-to-top" class="scroll-to-top">
@@ -753,19 +763,6 @@
 			</a>
 		</div>
 
-		<script src="assets/js/vendor/jquery.min.js"></script>
-		<script src="assets/js/vendor/jquery.easing.min.js"></script>
-		<script src="assets/js/vendor/jquery.inview.min.js"></script>
-		<script src="assets/js/vendor/popper.min.js"></script>
-		<script src="assets/js/vendor/bootstrap.min.js"></script>
-		<script src="assets/js/vendor/ponyfill.min.js"></script>
-		<script src="assets/js/vendor/slider.min.js"></script>
-		<script src="assets/js/vendor/animation.min.js"></script>
-		<script src="assets/js/vendor/progress-radial.min.js"></script>
-		<script src="assets/js/vendor/bricklayer.min.js"></script>
-		<script src="assets/js/vendor/gallery.min.js"></script>
-		<script src="assets/js/vendor/shuffle.min.js"></script>
-		<script src="assets/js/vendor/particles.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<?php require_once("views/scripts.html"); ?>
 	</body>
 </html>
