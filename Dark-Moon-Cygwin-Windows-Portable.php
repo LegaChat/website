@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["dark-moon-cygwin-windows-portable"]; ?>
 		<title>Dark Moon Cygwin Portable - L’univers « Linux » Portable sous Windows !</title>
-		<meta name="description" content="Dark Moon - Logiciel Dark Moon Cygwin Portable - L’univers « Linux » Portable sous Windows | Outil réseau & sécurité | Outils de développement GCC/GNU">
-		<meta name="subject" content="Editeur de logiciel libre, Cygwin Portable, Linux Portable">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>

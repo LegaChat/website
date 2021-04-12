@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["developpement-de-sites-web-e-commerce-toulouse"]; ?>
 		<title>Dark Moon - Agence de creation de site e-commerce à Toulouse</title>
-		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de création de site e-commerce à Toulouse | Joomla - Drupal - Wordpress - Prestashop">
-		<meta name="subject" content="Agence de creation de site e-commerce à Toulouse">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>

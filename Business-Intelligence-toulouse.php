@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["business-intelligence-toulouse"]; ?>
 		<title>Dark Moon - Business Intelligence à Toulouse</title>
-		<meta name="description" content="Dark Moon - Business Intelligence Toulouse - Contactez-nous au ☎ 07 66 28 90 11 ">
-		<meta name="subject" content="Outils de Business Intelligence à Toulouse">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
