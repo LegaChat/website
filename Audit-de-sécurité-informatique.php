@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["test-intrusion-reseau-toulouse"]; ?>
-		<title>Dark Moon - Créateur Intégrateur d'API sur mesure à Toulouse</title>
+		<title>Audit de securité informatique</title>
 		<meta name="description" content="<?php echo($meta["description"]); ?>">
 		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
@@ -22,8 +22,8 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Test d'intrusion réseaux à Toulouse</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Entreprise de sécurité informatique & Cybersécurité à Toulouse, Service de Pentest réseaux & cybersécurité, validation de politique de sécurité informatique à Toulouse.</p>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Audit de securité informatique</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Entreprise de sécurité informatique & Cybersécurité, Service de Pentest réseaux & cybersécurité, validation de politique de sécurité informatique à Toulouse.</p>
 									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										ON VOUS RAPPELLE
 										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
@@ -54,42 +54,42 @@
                         <div class="card featured">
                             <i class="icon icon-globe color-item"></i>
                             <h4>Audit d'Application Web</h4>
-                            <p>Les Web App sont complexes, ouvrant des possibilités d'attaques.<a style="color:#fff" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
+                            <p>Les Web App sont complexes, ouvrant des possibilités d'attaques.<a style="color:#fff" href="Pentest-web.php"> En savoir plus</a></p>
 						</div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-basket"></i>
                             <h4>Test d'intrusion PCI</h4>
-                            <p>Destinés à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS-toulouse.php"> En savoir plus</a></p>
+                            <p>Destiné à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-screen-smartphone"></i>
                             <h4>Test d'Intrusion Réseau</h4>
-                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
+                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Audit-de-sécurité-informatique.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-layers"></i>
                             <h4>Audit de code</h4>
-                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code-toulouse.php"> En savoir plus</a></p>
+                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
                             <h4>Audit App Mobile</h4>
-                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Audit-d’application-mobile-toulouse.php"> En savoir plus</a></p>
+                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Pentest-d’application-mobile.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
                             <h4>Solution de sécurité</h4>
-                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
+                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Entreprise-de-développement-web.php"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Test d'Intrusion à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Audit de securité informatique.</h2>
                                 <p class="appear p-phoneOnly">Le test d’intrusion est une étape indispensable pour protéger vos <u class="bold-mot">données et vos systèmes.</u></p>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Consultant en sécurité informatique, expert toulousain</h4>
+                                        <h4 class="appear h-phoneOnly">Cabinet de conseil en cybersécurité</h4>
                                         <p class="appear p-phoneOnly">Cette procédure <u class="bold-mot">s’adresse aux entreprises</u> de toutes tailles possédant leur propre infrastructure informatique, une plateforme Web, ou des postes de travail à distance...<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Entreprise de sécurité informatique, Toulouse</h4>
+                                        <h4 class="appear h-phoneOnly">Auditeur en sécurité informatique</h4>
                                         <p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un test d’intrusion réalisé par un attaquant mettra en évidence les <u class="bold-mot">failles de sécurité</u> de votre système informatique.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -247,7 +247,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Qu'est-ce qu'un Test d'Intrusion ?</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Qu'est-ce qu'un audit de sécurité ?</h2>
                                 <p class="appear p-phoneOnly">Un test d’intrusion est la meilleure méthode pour mettre en évidence les <u class="bold-mot">failles de sécurité</u> de votre système informatique.</p>
                             </div>
                         </div>
@@ -258,7 +258,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Experts certifiés CSFPC™ en Haute Garonne</h4>
+                                        <h4 class="appear h-phoneOnly">Experts certifiés CSFPC™, conseiller en cybersécurité</h4>
                                         <p class="appear p-phoneOnly">Toute <u class="bold-mot">atteinte à la sécurité</u> au sein de votre entreprise peut affecter ses revenus, sa réputation et la confiance que lui portent ses clients, faites confiance à une équipe d'experts certifiés.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -267,7 +267,7 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Audit d'infrastructure en région toulousaine</h4>
+                                        <h4 class="appear h-phoneOnly">Audit d'infrastructure, cabinet de conseil en système d'information</h4>
                                         <p class="appear p-phoneOnly">Pour vous protéger des attaques potentielles liées à la sécurité, appuyez-vous sur des technologies modernes de haute qualité, telles que les <u class="bold-mot">antivirus, certificats SSL, pare-feux, DMZ, Proxy</u>, la protection des équipements physiques.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Test d'Intrusion Interne à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Audit de sécurité, Pentest interne.</h2>
                                 <p class="appear p-phoneOnly">L'objectif est de tenter de reproduire une <u class="bold-mot">attaque informatique</u> depuis l'intérieur du réseau en ayant un accès physique au réseau de l'organisation.</p>
                             </div>
                         </div>
@@ -309,7 +309,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Audit Interne en région toulousaine</h4>
+                                        <h4 class="appear h-phoneOnly">Audit de sécurité Interne </h4>
                                         <p class="appear p-phoneOnly">L’audit permet d’étayer le <u class="bold-mot">cahier des charges</u> des DSI dans le cadre de la création ou de la refonte d’un système informatique.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -334,7 +334,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text"> Test d'Intrusion Externe à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text"> Audit de sécurité, Pentest externe.</h2>
                                 <p class="appear p-phoneOnly">Dark Moon réalise des <u class="bold-mot">tests d'intrusions</u> depuis des sites web & Audit d'application informatique</p>
                             </div>
                         </div>
@@ -345,7 +345,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Audit d'application informatique à Toulouse</h4>
+                                        <h4 class="appear h-phoneOnly">Audit d'application, Pentest web</h4>
                                         <p class="appear p-phoneOnly">L'objectif est de tenter d'accéder à des services spécifiques et aux informations souhaitées qui peuvent être trouvées en violant la <u class="bold-mot">sécurité du réseau</u> depuis l'extérieur, notamment via le web.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>

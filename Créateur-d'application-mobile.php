@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["developpement-applications-mobiles-toulouse"]; ?>
-		<title>Dark Moon - Développeur d'Application Sur Mesure à Toulouse</title>
+		<title>Dark Moon - Créateur d'application mobile</title>
 		<meta name="description" content="<?php echo($meta["description"]); ?>">
 		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
@@ -22,8 +22,8 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Développement d'application mobile à Toulouse</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application mobile en Objective-C, Java, Angular, NodJS... pour Android et iOS à Toulouse.</p>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Créateur d'application mobile</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de création d'application mobile en Objective-C, Java, Angular, NodJS... pour Android et iOS.</p>
 									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										ON VOUS RAPPELLE
 										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
@@ -81,7 +81,7 @@
                         <div class="card">
                             <i class="icon icon-chart"></i>
                             <h4>Développement</h4>
-                            <p>Nos développeurs mobile sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nos développeurs sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
@@ -213,7 +213,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Applications.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Création d'applications.</h2>
                                 <p class="appear p-phoneOnly">Un moyen facile de créer des applications mobiles pour plusieurs appareils !</p>
                             </div>
                         </div>
@@ -224,7 +224,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Application sur mesure à Toulouse</h4>
+                                        <h4 class="appear h-phoneOnly">Création d'application sur mesure</h4>
                                         <p class="appear p-phoneOnly">Pour les entreprises tournées vers l'avenir qui souhaitent rester en <u class="bold-mot">contact</u> avec leurs clients.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -233,7 +233,7 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Conception d'application en Haute Garonne</h4>
+                                        <h4 class="appear h-phoneOnly">Conception d'application mobile</h4>
                                         <p class="appear p-phoneOnly">Nous développons des solutions <u class="bold-mot">logiciels multiplateformes</u> à la fois pour Android et IOS.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Développement à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Agence de création d'application mobile.</h2>
                                 <p class="appear p-phoneOnly">Nos services de développement d'applications mobiles pour Android et iOS sur mesure à Toulouse.</p>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Application pour entreprise toulousaine</h4>
+                                        <h4 class="appear h-phoneOnly">Application pour entreprise</h4>
                                         <p class="appear p-phoneOnly">Nous développons des <u class="bold-mot">applications mobiles métiers</u> de bout en bout pour iOS ou Android.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Développement d'application en Haute Garonne</h4>
+                                        <h4 class="appear h-phoneOnly">Agence de développement mobile</h4>
                                         <p class="appear p-phoneOnly">Notre expertise en <u class="bold-mot">développement</u> d'application mobile s’étend à de nombreux secteurs.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Conception sur mesure à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Création sur mesure d'application mobile.</h2>
                                 <p class="appear p-phoneOnly">Dark Moon pour le développement de vos applications mobiles sur mesure.</p>
                             </div>
                         </div>

@@ -6,8 +6,8 @@
 <html lang="fr">
 	<head>
 		<title>Dark Moon - Éditeur de logiciel à Toulouse - Entreprise de Cybersécurité à Toulouse- Cygwin Portable</title>
-		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Entreprise de sécurité informatique à Toulouse - Éditeur de logiciel à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity">
-		<meta name="subject" content="Entreprise de sécurité informatique à Toulouse - Éditeur de logiciel à Toulouse">
+		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Entreprise de sécurité informatique - Éditeur de logiciel à Toulouse">
+		<meta name="subject" content="Entreprise de sécurité informatique - Éditeur de logiciel à Toulouse">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
@@ -241,7 +241,7 @@
 					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
 						<div class="row intro">
 							<div class="col-12 p-0">
-								<h2 class="appear h-phoneOnly super effect-static-text">Créateur site web à Toulouse</h2>
+								<h2 class="appear h-phoneOnly super effect-static-text">Créateur site internet à Toulouse</h2>
 								<p class="appear p-phoneOnly">Nos services de développement de <u class="bold-mot">site web sur mesure</u> à Toulouse.</p>
 							</div>
 						</div>
@@ -292,7 +292,7 @@
 					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
 						<div class="row intro">
 							<div class="col-12 p-0">
-								<h2 class="appear h-phoneOnly super effect-static-text">Conception d'API à Toulouse</h2>
+								<h2 class="appear h-phoneOnly super effect-static-text">Conception d'API</h2>
 								<p class="appear p-phoneOnly">Dark Moon pour le <u class="bold-mot">développement</u> et <u class="bold-mot">l'intégration</u> de vos <u class="bold-mot">API</u> sur mesure à Toulouse.</p>
 							</div>
 						</div>
@@ -303,7 +303,7 @@
 										<i class="icon icon-trophy"></i>
 									</div>
 									<div class="col-12 col-md-9 align-self-center">
-										<h4 class="appear h-phoneOnly">Développement en Haute garonne</h4>
+										<h4 class="appear h-phoneOnly">Développement</h4>
 										<p class="appear p-phoneOnly">Dark Moon développe et conçoit des <u class="bold-mot">API sur mesure</u>, performante et transparente pour les utilisateurs.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
 									</div>
 								</div>
@@ -312,7 +312,7 @@
 										<i class="icon icon-diamond"></i>
 									</div>
 									<div class="col-12 col-md-9 align-self-center">
-										<h4 class="appear h-phoneOnly">Intégration d'API à Toulouse</h4>
+										<h4 class="appear h-phoneOnly">Intégration d'API</h4>
 										<p class="appear p-phoneOnly"><u class="bold-mot">Intégration d'API</u> entièrement conçue pour aligner vos résultats avec les données d'autres applications.<a class="ensavoirplus" href="Développement-et-intégration-d'API-toulouse.php"> En savoir plus</a></p>
 									</div>
 								</div>
@@ -329,7 +329,7 @@
 					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
 						<div class="row intro">
 							<div class="col-12 p-0">
-								<h2 class="appear h-phoneOnly super effect-static-text">Test d'intrusion & Pentest à Toulouse</h2>
+								<h2 class="appear h-phoneOnly super effect-static-text">Test d'intrusion & Pentest</h2>
 								<p class="appear p-phoneOnly">Dark Moon réalise à Toulouse de <u class="bold-mot">tests d’intrusion</u> qui visent à identifier les vulnérabilités des systèmes informatiques avant que ces <u class="bold-mot">failles</u> soient découvertes et exploitées.</p>
 							</div>
 						</div>
@@ -349,7 +349,7 @@
 										<i class="icon icon-diamond"></i>
 									</div>
 									<div class="col-12 col-md-9 align-self-center">
-										<h4 class="appear h-phoneOnly">Pentest en Haute Garonne</h4>
+										<h4 class="appear h-phoneOnly">Pentest</h4>
 										<p class="appear p-phoneOnly">Pour valider une politique de sécurité efficace, un <u class="bold-mot">test d’intrusion</u> réalisé par un attaquant mettra en évidence les failles de sécurité de votre système informatique.<a class="ensavoirplus text18" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
 									</div>
 								</div>

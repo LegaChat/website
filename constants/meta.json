@@ -1,19 +1,19 @@
 {
 	"audit-application-mobile-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Audit d'application - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity",
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Pentest d'application mobile - Entreprise de Cybersécurité",
 		"subject": "Audit d'application"
 	},
 	"audit-de-code-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Audit de code - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII",
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Audit de code - Entreprise de Cybersécurité à Toulouse",
 		"subject": "Audit de code"
 	},
 	"business-intelligence-toulouse": {
-		"description": "Dark Moon - Business Intelligence Toulouse - Contactez-nous au ☎ 07 66 28 90 11 ",
+		"description": "Dark Moon - Business Intelligence à Toulouse - Contactez-nous au ☎ 07 66 28 90 11 ",
 		"subject": "Outils de Business Intelligence à Toulouse"
 	},
 	"conception-et-developpement-web-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception et de création de site web sur mesure à Toulouse | Joomla - Drupal - Wordpress - Prestashop",
-		"subject": "Agence Web, Développement de site web, Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Créateur de site internet à Toulouse | Création de site web sur mesure",
+		"subject": "Agence de création de site web, Développement de site web, Toulouse"
 	},
 	"dark-moon-cacti-windows-linux-portable": {
 		"description": "",
@@ -24,24 +24,24 @@
 		"subject": "Editeur de logiciel libre, Cygwin Portable, Linux Portable"
 	},
 	"developpement-application-web-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception, de création et de développement de web application sur mesure à Toulouse | PHP - Symphony - Angular - ReactJS - Python - Drupal - Wordpress - Prestashop",
-		"subject": "Agence Web, Développement web, Application Web sur mesure, Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Entreprise de développement web",
+		"subject": "Entreprise de développement web"
 	},
 	"developpement-applications-mobiles-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Développeur  d'application sur mesure à Toulouse | Conception d'application mobile | PHP - Symphony - Angular - ReactJS - Python - Drupal - Wordpress - Prestashop",
-		"subject": "Développeur d'application sur mesure à Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Créateur d'application mobile | Agence de création d'application mobile",
+		"subject": "Créateur d'application mobile"
 	},
 	"developpement-de-sites-web-e-commerce-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de création de site e-commerce à Toulouse | Joomla - Drupal - Wordpress - Prestashop",
-		"subject": "Agence de creation de site e-commerce à Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de création de site e-commerce",
+		"subject": "Agence de creation de site e-commerce"
 	},
 	"developpement-et-integration-api-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception et de création de REST API sur mesure à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity",
-		"subject": "Développement de REST API sur mesure à Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception et de création de REST API sur mesure pour Startup, Porteur de projet, SSII",
+		"subject": "Développement de REST API sur mesure"
 	},
 	"modernisation-et-refonte-applications-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de développement et de refonte d'application sur mesure à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity",
-		"subject": "Développement et refonte d'application à Toulouse"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de développement et de refonte d'application sur mesure pour Startup, Porteur de projet, SSII ",
+		"subject": "Développement et refonte d'application"
 	},
 	"pentest-drupal-toulouse": {
 		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Pentest Drupal sur mesure - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII",
@@ -60,7 +60,7 @@
 		"subject": "Pentest Prestashop"
 	},
 	"pentest-web-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Pentest Web - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII",
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Pentest Web - Entreprise de Cybersécurité à Toulouse",
 		"subject": "Pentest Web"
 	},
 	"pentest-wordpress": {
@@ -68,7 +68,7 @@
 		"subject": "Pentest Wordpress"
 	},
 	"test-intrusion-reseau-toulouse": {
-		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception et de création d'application mobile sur mesure à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity",
-		"subject": "Agence Web, Développement d'application mobile"
+		"description": "Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - , Audit de sécurité informatique - entreprise de sécurité informatique",
+		"subject": "Audit de sécurité informatique - Test d'intrusion"
 	}
 }

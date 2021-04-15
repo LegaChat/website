@@ -23,7 +23,7 @@
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
 									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Dark Moon Cygwin GNU Portable.</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Dark Moon Cygwin Portable. L’univers « Linux » Portable sous Windows ! Dark Moon est un logiciel Open Source développé par Mehdi Boutayeb Ferkatou.</p>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Dark Moon Cygwin Portable. L’univers « Linux » Portable sous Windows ! Dark Moon est un logiciel open source développé par Mehdi Boutayeb Ferkatou.</p>
 									<a href="https://www.microsoft.com/store/apps/9PJ369WKBV7F" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										TÉLÉCHARGER
 										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">download</i>

@@ -5,7 +5,7 @@
 			<div class="row text-center intro">
 				<div class="col-12">
 					<h2 class="super effect-static-text">Notre équipe</h2>
-					<p class="text-max-800">Notre équipe vous aidera à valider votre politique de sécurité et la traduira en un audit d'application mobile complet pour vous aider à renforcer votre stratégie contre les cyberattaques. Veuillez consulter les<a class="ensavoirplus text18" href="#mentionlegale"> mentions légales.</a></p>
+					<p class="text-max-800">Notre équipe vous aidera à digitaliser votre activité et la traduira en un site web, une application, un audit complet pour vous aider à renforcer votre stratégie contre les cyberattaques ou pour développer votre chiffre d'affaires. Veuillez consulter les<a class="ensavoirplus text18" href="#mentionlegale"> mentions légales.</a></p>
 				</div>
 			</div>
 			<div class="swiper-container mid-slider-simple items">

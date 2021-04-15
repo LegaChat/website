@@ -100,32 +100,32 @@
                                         <li class="nav-item dropdown">
                                             <a class="nav-link" href="#">Web creation <i class="icon-arrow-right"></i></a>
                                             <ul class="dropdown-menu">
-                                                <li class="nav-item"><a href="../Conception-et-développement-web-toulouse.php" class="nav-link">Web design and development</a></li>
-                                                <li class="nav-item"><a href="../Développement-de-sites-web-d'e-commerce-toulouse.php" class="nav-link">Creation of e-commerce</a></li>
+                                                <li class="nav-item"><a href="../Créateur-site-internet-toulouse.php" class="nav-link">Web design and development</a></li>
+                                                <li class="nav-item"><a href="../Agence-de-création-site-e-commerce.php" class="nav-link">Creation of e-commerce</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link" href="#">Application Development <i class="icon-arrow-right"></i></a>
                                             <ul class="dropdown-menu">
-                                                <li class="nav-item"><a href="../Développement-d'applications-mobiles-toulouse.php" class="nav-link">Mobile application development</a></li>
-                                                <li class="nav-item"><a href="../Modernisation-et-refonte-d'applications-toulouse.php" class="nav-link">Application Modernization and Redesign</a></li>
+                                                <li class="nav-item"><a href="../Créateur-d'application-mobile.php" class="nav-link">Mobile application development</a></li>
+                                                <li class="nav-item"><a href="../Modernisation-et-refonte-d'applications.php" class="nav-link">Application Modernization and Redesign</a></li>
                                                 <li class="nav-item"><a href="../Business-Intelligence-toulouse.php" class="nav-link">Business Intelligence Tool</a></li>
-                                                <li class="nav-item"><a href="../Développement-et-intégration-d'API-toulouse.php" class="nav-link">API development and integration</a></li>
-                                                <li class="nav-item"><a href="../Développement-d'application-web-toulouse.php" class="nav-link">Web application development</a></li>
+                                                <li class="nav-item"><a href="../Développement-et-intégration-d'API.php" class="nav-link">API development and integration</a></li>
+                                                <li class="nav-item"><a href="../Entreprise-de-développement-web.php" class="nav-link">Web application development</a></li>
                                             </ul>
                                         </li>
 										<li class="nav-item dropdown">
                                             <a class="nav-link" href="#">Networks & Cybersecurity <i class="icon-arrow-right"></i></a>
                                             <ul class="dropdown-menu">
-                                                <li class="nav-item"><a href="../Test-d'intrusion-réseau-toulouse.php" class="nav-link">Network Intrusion Test</a></li>
-												<li class="nav-item"><a href="../Audit-de-code-toulouse.php" class="nav-link">Code audit</a></li>
-												<li class="nav-item"><a href="../Audit-d’application-mobile-toulouse.php" class="nav-link">Mobile Application Audit</a></li>
-                                                <li class="nav-item"><a href="../Pentest-PCI-DSS-toulouse.php" class="nav-link">Pentest PCI-DSS</a></li>
-                                                <li class="nav-item"><a href="../Pentest-web-toulouse.php" class="nav-link">Pentest Web & Web App</a></li>
+                                                <li class="nav-item"><a href="../Audit-de-sécurité-informatique.php" class="nav-link">Network Intrusion Test</a></li>
+												<li class="nav-item"><a href="../Audit-de-code.php" class="nav-link">Code audit</a></li>
+												<li class="nav-item"><a href="../Pentest-d’application-mobile.php" class="nav-link">Mobile Application Audit</a></li>
+                                                <li class="nav-item"><a href="../Pentest-PCI-DSS.php" class="nav-link">Pentest PCI-DSS</a></li>
+                                                <li class="nav-item"><a href="../Pentest-web.php" class="nav-link">Pentest Web & Web App</a></li>
                                                 <li class="nav-item"><a href="../Pentest-Wordpress.php" class="nav-link">Pentest WordPress</a></li>
-												<li class="nav-item"><a href="../Pentest-Drupal-toulouse.php" class="nav-link">Pentest Drupal</a></li>
-												<li class="nav-item"><a href="../Pentest-Joomla-toulouse.php" class="nav-link">Pentest Joomla</a></li>
-												<li class="nav-item"><a href="../Pentest-Prestashop-toulouse.php" class="nav-link">Pentest Prestashop</a></li>
+												<li class="nav-item"><a href="../Pentest-Drupal.php" class="nav-link">Pentest Drupal</a></li>
+												<li class="nav-item"><a href="../Pentest-Joomla.php" class="nav-link">Pentest Joomla</a></li>
+												<li class="nav-item"><a href="../Pentest-Prestashop.php" class="nav-link">Pentest Prestashop</a></li>
                                             </ul>
                                         </li>
                             </ul>
@@ -197,16 +197,21 @@
 		 <section id="slider" class="section-1 p-0 featured left">
             <div class="swiper-container no-slider animation slider-h-100">
                 <div class="swiper-wrapper">
-
                     <!-- Item 1 -->
                     <div class="swiper-slide slide-center">
-                        <img src="/assets/images/pc.gif" class="floating hero-image" alt="Hero Image">
+                        <div class="floating hero-image">
+	                        <img src="../assets/images/pc.png" alt="Hero Image" />
+	                        <img class="onIt" src="../assets/images/screen.gif" alt="Hero Image" />
+                        </div>
                         <div class="slide-content row" data-mask-768="80">
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
                                     <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Dark Moon Cygwin GNU Portable.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Dark Moon Cygwin Portable. The «Linux» Portable universe under Windows ! Dark Moon is an open source software developed by Mehdi Boutayeb Ferkatou.</p>
-                                    <a href="https://www.microsoft.com/store/apps/9PJ369WKBV7F" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">FREE DOWNLOAD<i class="fab fa-windows" style="font-size:25px; margin-left: 10px; width: 0.5em;"></i></a>
+                                    <a href="https://www.microsoft.com/store/apps/9PJ369WKBV7F" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
+										DOWNLOAD
+										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">download</i>
+									</a>
 							   </div>
                             </div>
                         </div>
@@ -288,7 +293,7 @@
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="box-partenaire row card">
                                     <div class="col-12">
-                                        <img class="logo-partenaire ibm" src="assets/images/ibm.png" width="120px" height="80px">
+                                        <img class="logo-partenaire ibm" src="../assets/images/ibm.png" width="120px" height="80px">
 
                                         <p>Member of IBM Partner network since September 2020.</p>
                                     </div>
@@ -297,7 +302,7 @@
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="box-partenaire row card">
                                     <div class="col-12">
-                                        <img class="logo-partenaire microsoft" src="assets/images/microsoft-logo.png"  width="195px" height="90px">
+                                        <img class="logo-partenaire microsoft" src="../assets/images/microsoft-logo.png"  width="195px" height="90px">
                                         <p>UWP development with support from Desktop Bridge engineers.</p>
                                     </div>
                                 </div>
@@ -305,7 +310,7 @@
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="box-partenaire row card">
                                     <div class=" col-12">
-                                        <img class="logo-partenaire unandun" src="assets/images/1&1.png" width="180px" height="120px">
+                                        <img class="logo-partenaire unandun" src="../assets/images/1&1.png" width="180px" height="120px">
                                         <p>Dark Moon has been a member of the 1&1 ionos partner network for 3 years.</p>
                                     </div>
                                 </div>
@@ -313,7 +318,7 @@
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="box-partenaire row card">
                                     <div class="col-12">
-                                        <img class="logo-partenaire advanced-installer" src="assets/images/advanced-installer.png" width="170px" height="117px">
+                                        <img class="logo-partenaire advanced-installer" src="../assets/images/advanced-installer.png" width="170px" height="117px">
                                         <p>Software license distribution as part of an open source partnership.</p>
                                     </div>
                                 </div>
@@ -432,7 +437,7 @@ width:80% !important;
                         <a>
                             <i class=""></i>
                             <div class=""></div>
-                            <img class="appear floating" src="assets/images/8.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="../assets/images/8.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
@@ -458,7 +463,7 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">"Linux Portable" type</h4>
+                                        <h4 class="appear h-phoneOnly">linux portable-like system</h4>
                                         <p class="appear p-phoneOnly">Dark Moon mimics many small details of a <u class="bold-mot">Linux-like</u> operating system and is registered by the POSIX standard, making it easier to port Unix applications to Windows.<a class="ensavoirplus" href="https://dark-moon-x.github.io/DarkMoon/"> Learn more</a></p>
                                     </div>
                                 </div>
@@ -505,7 +510,7 @@ width:80% !important;
                         <a>
                             <i class=""></i>
                             <div class=""></div>
-                            <img class="appear floating" src="assets/images/1.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="../assets/images/7.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
                 </div>
@@ -519,7 +524,7 @@ width:80% !important;
                         <a>
                             <i class=""></i>
                             <div></div>
-                            <img class="appear floating" src="assets/images/5.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="../assets/images/5.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
@@ -592,7 +597,7 @@ width:80% !important;
                         <a>
                             <i class=""></i>
                             <div class=""></div>
-                            <img class="appear floating" src="assets/images/1.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="../assets/images/1.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
                 </div>
@@ -605,7 +610,7 @@ width:80% !important;
                         <a>
                             <i class=""></i>
                             <div></div>
-                            <img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="../assets/images/2.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
@@ -656,7 +661,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/team-1.svg" alt="Adams Baker" class="person">
+                                        <img src="../assets/images/team-1.svg" alt="Adams Baker" class="person">
                                         <h4>Mehdi FERKATOU </h4>
                                         <p>Systems Administrator Networks/ Cybersecurity</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -679,7 +684,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/team-2.svg" alt="Mary Evans" class="person">
+                                        <img src="../assets/images/team-2.svg" alt="Mary Evans" class="person">
                                         <h4>Florian CARDINAL</h4>
                                         <p>Designer / Programmer Analyst</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -702,7 +707,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/team-3.svg" alt="Sarah Lopez" class="person">
+                                        <img src="../assets/images/team-3.svg" alt="Sarah Lopez" class="person">
                                         <h4>Elysee LANDU</h4>
                                         <p>Consultant/ Corporate Management</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -725,7 +730,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/team-4.svg" alt="Joseph Hills" class="person">
+                                        <img src="../assets/images/team-4.svg" alt="Joseph Hills" class="person">
                                         <h4>Dr Bernard Feurer</h4>
                                         <p>Head of PICOMETRICS / Advisor</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -748,7 +753,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/team-5.svg" alt="Joseph Hills" class="person">
+                                        <img src="../assets/images/team-5.svg" alt="Joseph Hills" class="person">
                                         <h4>Julien Angelica</h4>
                                         <p>Graphic designer / Motion Designer 2D & 3D</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -818,7 +823,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/hervé.svg" alt="Adams Baker" class="person">
+                                        <img src="../assets/images/hervé.svg" alt="Adams Baker" class="person">
                                         <h4>Chris • USA</h4>
                                         <p>Linux on my desktop after more than 20 years of development and coding!!</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -844,7 +849,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/régis.svg" alt="Mary Evans" class="person">
+                                        <img src="../assets/images/régis.svg" alt="Mary Evans" class="person">
                                         <h4>James • USA</h4>
                                         <p>I love, this is literally a Linux. I thought it was a stupid line command.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -870,7 +875,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/marc.svg" alt="Sarah Lopez" class="person">
+                                        <img src="../assets/images/marc.svg" alt="Sarah Lopez" class="person">
                                         <h4>Owen • USA</h4>
                                         <p>Best subsystem! you don’t need administrator rights to use it.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -893,7 +898,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/joachim.svg" alt="Joseph Hills" class="person">
+                                        <img src="../assets/images/joachim.svg" alt="Joseph Hills" class="person">
                                         <h4>Jason • USA</h4>
                                         <p>Very impressive, a unique combo of WSL and Windows on my computer.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -919,7 +924,7 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/joan.svg" alt="Karen Usman" class="person">
+                                        <img src="../assets/images/joan.svg" alt="Karen Usman" class="person">
                                         <h4>海东 • China</h4>
                                         <p>Excellent "Linux" machine on Windows, It is useful to me daily!</p>
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -1224,30 +1229,30 @@ width:80% !important;
                                     <h4 class="title">Our services</h4>
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                            <a href="../Pentest-web-toulouse.html" class="nav-link">Pentest Web</a>
+                                            <a href="../Pentest-web.php" class="nav-link">Pentest Web</a>
                                         </li>
 										 <li class="nav-item">
-                                            <a href="../Audit-de-code-toulouse.html" class="nav-link">Code audit</a>
+                                            <a href="../Audit-de-code.php" class="nav-link">Code audit</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="../Audit-d’application-mobile-toulouse.html" class="nav-link">Mobile App Audit</a>
+                                            <a href="../Pentest-d’application-mobile.php" class="nav-link">Mobile App Audit</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="../Test-d'intrusion-réseau-toulouse.html" class="nav-link">Network Intrusion Test</a>
+                                            <a href="../Audit-de-sécurité-informatique.php" class="nav-link">Network Intrusion Test</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="../Pentest-PCI-DSS-toulouse.html" class="nav-link">Pentest PCI DSS</a>
+                                            <a href="../Pentest-PCI-DSS.php" class="nav-link">Pentest PCI DSS</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-12 col-lg-4 p-3 text-center text-lg-left item">
                                     <h4 class="title">Tendances</h4>
-                                    <a href="../Audit-d’application-mobile-toulouse.html" class="badge tag">Mobile</a>
-									<a href="../Pentest-web-toulouse.html" class="badge tag">Web App</a>
-                                    <a href="../Pentest-web-toulouse.html" class="badge tag">Pentest</a>
-									<a href="../Test-d'intrusion-réseau-toulouse.html" class="badge tag">Penetration test</a>
-                                    <a href="../Pentest-PCI-DSS-toulouse.html" class="badge tag">PCI DSS</a>
-                                    <a href="../Développement-d'application-web-toulouse.html" class="badge tag">SecDevOps</a>
+                                    <a href="../Audit-d’application-mobile-toulouse.php" class="badge tag">Mobile</a>
+									<a href="../Entreprise-de-développement-web.php" class="badge tag">Web App</a>
+                                    <a href="../Pentest-web.php" class="badge tag">Pentest</a>
+									<a href="../Audit-de-sécurité-informatique.php" class="badge tag">Penetration test</a>
+                                    <a href="../Pentest-PCI-DSS.php" class="badge tag">PCI DSS</a>
+                                    <a href="../index.php" class="badge tag">SecDevOps</a>
 
                                 </div>
                             </div>

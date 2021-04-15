@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["modernisation-et-refonte-applications-toulouse"]; ?>
-		<title>Dark Moon - Développement et refonte d'application à Toulouse</title>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["developpement-de-sites-web-e-commerce-toulouse"]; ?>
+		<title>Dark Moon - Agence de creation de site e-commerce</title>
 		<meta name="description" content="<?php echo($meta["description"]); ?>">
 		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
@@ -22,8 +22,8 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Modernisation et refonte d'application à Toulouse</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application à Toulouse. Expert en modernisation et refonte d'application mobile, web et bureau.</p>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Agence de creation de site e-commerce</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création de sites internet e-commerce pour artisan, commerçant, porteur de projet.</p>
 									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										ON VOUS RAPPELLE
 										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
@@ -39,28 +39,28 @@
 			</div>
 		</section>
 
-        <!-- Services -->
+				<!-- Services -->
         <section id="services" class="section-1 odd offers featured custom">
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
                         <h2 class="super effect-static-text">Nos Services</h2>
-                        <p class="text-max-800">Construisez le workflow de votre Application avec les services suivants :</p>
+                        <p class="text-max-800">Construisez le workflow de votre boutique en ligne avec les services suivants :</p>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-4 margin-item ">
+                    <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-globe color-item"></i>
                             <h4>Passez en direct</h4>
-                            <p>Nous distribuons l'application et apportons des modifications pour les utilisateurs.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nous distribuons la plate-forme et apportons des modifications pour les utilisateurs.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
 						</div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-basket"></i>
                             <h4>Maintenance</h4>
-                            <p>Nous vous proposons une formule d'assistance et de  maintenance d'application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nous vous proposons une formule d'assistance et de  maintenance e-commerce.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
@@ -74,21 +74,21 @@
                         <div class="card">
                             <i class="icon icon-layers"></i>
                             <h4>Maquettes</h4>
-                            <p>Nous vous proposons des maquettes et des simulations de votre application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nous vous proposons des maquettes et des simulations de votre e-commerce.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
                             <h4>Développement</h4>
-                            <p>Nos développeurs mobile sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nos développeurs sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
                             <h4>Assurance qualité</h4>
-                            <p>Les applications modernisés sont testées pour valider tout bogues potentiels.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Les boutiques en lignes sont testées pour valider tout bogues potentiels.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -181,10 +181,10 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">Expert toulousain.</h2>
+						<h2 class="titre-modale super effect-static-text" style="">Expert à Toulouse.</h2>
 					</header>
 					<div class="container container1">
-						<p class="p-modale">Nous sommes animés par la créativité. Nous modernisons des applications innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
+						<p class="p-modale">Nous sommes animés par la créativité. Nous créons des sites e-commerces innovants pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
 					<div class="d-sm-inline-flex mt-3">
                         <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
@@ -196,6 +196,8 @@ width:80% !important;
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
+
 
         <!-- About [video] -->
         <section id="video" class="section-1 highlights image-left">
@@ -211,8 +213,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Refonte d'application à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Dark Moon est spécialisé dans la refonte et migration des applications en région Toulousaine</p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Fonctionnalités.</h2>
+                                <p class="appear p-phoneOnly">Fonctionnalités Puissantes et extensible de nos <u class="bold-mot">boutiques en lignes multiplateformes !</u></p>
                             </div>
                         </div>
                         <div class="row items">
@@ -222,8 +224,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Logiciels obsolètes</h4>
-                                        <p class="appear p-phoneOnly">Les entreprises continuent fréquemment de distribuer des <u class="bold-mot">applications</u> et des logiciels obsolètes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Secteur d'activité</h4>
+                                        <p class="appear p-phoneOnly">Nous développons des plateformes web d'e-commerce pour différents <u class="bold-mot">secteurs d’activité</u>, quelle que soit la taille du projet et optimisée pour augmenter les taux d’engagement et de conversion.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -231,8 +233,8 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Outils modernes</h4>
-                                        <p class="appear p-phoneOnly">Les <u class="bold-mot">applications en fin de vie</u> ne permettent pas de profiter des fonctionnalités apportées par des outils technologiques modernes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Création e-commerce</h4>
+                                        <p class="appear p-phoneOnly">Nous avons les compétences nécessaires pour créer des sites Web réactifs, performants et élégants sur mesure. Nos <u class="bold-mot">sites web d'e-commerce</u> sont fournis avec un éventail de fonctionnalités puissantes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -243,12 +245,12 @@ width:80% !important;
         </section>
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
-                <div class="row appear">
+                <div class="row appear ">
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Nos services à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Nos Services de modernisation et de <u class="bold-mot">refonte d'application</u> sur mesure à Toulouse.</p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Gestion des stocks.</h2>
+                                <p class="appear p-phoneOnly">Des outils pour la gestion des produits & catégories et de la clientèle et du support.</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -258,8 +260,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Convivialité et l'accessibilité</h4>
-                                        <p class="appear p-phoneOnly">Nous améliorerions la <u class="bold-mot">convivialité et l'accessibilité</u> de vos applications vieillissantes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Catalogue des produits</h4>
+                                        <p class="appear p-phoneOnly">Notre solution de site web e-commerce fournit une <u class="bold-mot">mise en catalogue</u> des produits par catégorie.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -267,8 +269,8 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Processsus de refonte d'application à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">Les <u class="bold-mot">applications modernisées</u> ont une interface utilisateur plus conviviale en accord avec les tendances du moment et une architecture plus solide.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Fonctionnalités de gestion</h4>
+                                        <p class="appear p-phoneOnly">Essentiel pour cibler des <u class="bold-mot">produits</u> en fonction des segments de clientèles visées.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +288,7 @@ width:80% !important;
         </section>
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
-                <div class="row appear ">
+                <div class="row appear">
 					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
@@ -297,8 +299,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Modernisation des applications à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Dark Moon expert en modernisation des applications héritées sur mesure à Toulouse.</p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Commandes.</h2>
+                                <p class="appear p-phoneOnly">Des outils pour la <u class="bold-mot">gestion des commandes</u> de vos clients et de l’inventaire.</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -308,8 +310,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Mises à niveaux</h4>
-                                        <p class="appear p-phoneOnly">Nous réalisons des mises à niveaux et des <u class="bold-mot">refontes d’application</u> et de logiciel plus ou moins importantes selon les besoins et objectifs du client.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Gestion des stocks</h4>
+                                        <p class="appear p-phoneOnly">Nous fournissons des <u class="bold-mot">outils de gestion</u> des stocks pour améliorer la coordination entre les entrepôts.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -317,8 +319,8 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Domaines d’expertises en Haute Garonne</h4>
-                                        <p class="appear p-phoneOnly">Nos domaines d’expertise s’étendent aux bases de données, aux systèmes d’exploitation <u class="bold-mot">(SecDevOps)</u> l’IoT, le Web, le cloud, le mobile...<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Gestion des commandes</h4>
+                                        <p class="appear p-phoneOnly">Affichez, modifiez et analysez les <u class="bold-mot">détails de la commande</u> de manière centralisée depuis un tableau de bord.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -327,14 +329,15 @@ width:80% !important;
                 </div>
             </div>
         </section>
-				<section id="video" class="section-1 highlights image-left">
+
+		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear ">
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Migration et optimisation.</h2>
-                                <p class="appear p-phoneOnly">Nos services de migration et optimisation d'application web, bureau et mobile sur mesure à Toulouse.</p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Tableau de bord.</h2>
+                                <p class="appear p-phoneOnly"><u class="bold-mot">Tableaux de bord administrateur & client</u> et section d'examen et de notation.</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -344,8 +347,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Applications et logiciels obsolètes</h4>
-                                        <p class="appear p-phoneOnly">Nous réalisons une <u class="bold-mot">migration d’application</u> fluide et transparente incluant la migration des bases de données, des plateformes, des systèmes d’exploitation. <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Controle totale</h4>
+                                        <p class="appear p-phoneOnly">Vous disposez d’un <u class="bold-mot">contrôle total</u> de toute l'activité sur votre boutique en ligne.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -353,8 +356,8 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Optimisation d'application à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">Si vous souhaitez simplement améliorer les <u class="bold-mot">fonctionnalités de l'application</u> pour la rendre plus conviviale, réactive et facile à entretenir, nous proposons des services d’optimisation d'application.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Commentaires clients</h4>
+                                        <p class="appear p-phoneOnly">Les <u class="bold-mot">commentaires clients</u> et les notations représentent une partie importante de toute boutique en ligne.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -366,6 +369,49 @@ width:80% !important;
                             <div class=""></div>
                             <img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="video" class="section-1 highlights image-left">
+            <div class="container">
+                <div class="row appear ">
+					<div class="centering col-12 col-md-6">
+                        <a>
+                            <i class=""></i>
+                            <div class=""></div>
+                            <img class="appear floating" src="assets/images/1.svg" class="fit-image" alt="dark moon">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="appear h-phoneOnly super effect-static-text">Campagne Adwords et SEO.</h2>
+                                <p class="appear p-phoneOnly">Section offres & <u class="bold-mot">référencement naturel</u> et campagne <u class="bold-mot">Adwords</u> pour accroître votre chiffre d'affaires à Toulouse.</p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-trophy"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Promotions marketing locale</h4>
+                                        <p class="appear p-phoneOnly">Grâce à nos <u class="bold-mot">sites web e-commerce</u>, la gestion des promotions marketing deviendra facile et intuitive.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-diamond"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Référencement SEO local</h4>
+                                        <p class="appear p-phoneOnly">Nous concevons et développons une structure de <u class="bold-mot">magasin convivial</u> pour le référencement naturel.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -513,7 +559,33 @@ width:80% !important;
             </div>
         </section>
 
-
+        <section id="features" class="section-1 odd offers featured">
+            <div class="container">
+                <div class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-globe"></i>
+                            <h4>Support</h4>
+                            <p>Tous nos projets sont soutenus par une solide équipe de support et de maintenance.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-basket"></i>
+                            <h4>Formation</h4>
+                            <p>Nos équipes de formateurs vous cadrent pour le maniement de votre boutique.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-screen-smartphone"></i>
+                            <h4>Activités</h4>
+                            <p>Nos services comprennent la stratégie, le conseil, la conception, le développement...<a style="color:#fff" href="contact.html"> En savoir plus</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 <!-- Pricing -->
         <section id="pricing" class="section-1 odd plans featured">
@@ -627,7 +699,7 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR D'APPLICATION</h2>
+						<h2 class="titre-modale super effect-static-text" style="">E-COMMERCE À TOULOUSE</h2>
 					</header>
 					<div class="container container1">
 						<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'applications, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
@@ -674,7 +746,7 @@ width:80% !important;
 					<div class="container">
 						<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
 					<div class="d-sm-inline-flex mt-3">
-						<a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+                        <a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
 					</div>
 					<p></p>

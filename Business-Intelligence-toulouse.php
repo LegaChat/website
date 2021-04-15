@@ -236,7 +236,7 @@ width:80% !important;
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
                                         <h4 class="appear h-phoneOnly">Données commerciales</h4>
-                                        <p class="appear p-phoneOnly">Au cours des dix dernières années, tirer parti du potentiel des <u class="bold-mot">données commerciales</u> critiques à été mit en avant par divers chefs d'entreprise à travers le monde.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <p class="appear p-phoneOnly">Depuis ces dix dernières années, Le potentiel des <u class="bold-mot">données commerciales</u> tend à prend une place de premier plan chez divers entreprises à travers le monde.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +302,7 @@ width:80% !important;
                         <div class="row intro">
                             <div class="col-12 p-0">
                                 <h2 class="appear h-phoneOnly super effect-static-text">Avantages B & I en Occitanie.</h2>
-                                <p>Pourquoi les entreprises Toulousaines ont Besoin de Business Intelligence ?</p>
+                                <p>Pourquoi les entreprises toulousaines ont besoin de Business Intelligence ?</p>
                             </div>
                         </div>
                         <div class="row items">
