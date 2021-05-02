@@ -1,73 +1,59 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-
-        <!-- ==============================================
-        Basic Page Needs
-        =============================================== -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-
+	<head>
+		<!-- ==============================================
+		Basic Page Needs
+		=============================================== -->
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 		<title>Dark Moon Cygwin Portable - The «Linux» Portable universe under Windows !</title>
-
 		<meta name="description" content="Dark Moon - Dark Moon Cygwin Portable Software- The «Linux» Portable universe under Windows | Network tool & security | GCC/GNU Development Tools">
 		<meta name="subject" content="French Free Software Editor, Cygwin Portable, Linux Portable">
 		<meta name="author" content="Mehdi FERKATOU">
-
-
-        <!-- ==============================================
-        Favicons
-        =============================================== -->
-        <link rel="shortcut icon" href="../assets/images/LUNE.svg">
-
-        <!-- ==============================================
-        Vendor Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/css/vendor/slider.min.css">
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet" href="../assets/css/vendor/icons.min.css">
-        <link rel="stylesheet" href="../assets/css/vendor/animation.min.css">
-        <link rel="stylesheet" href="../assets/css/vendor/gallery.min.css">
-        <link rel="stylesheet" href="../assets/css/vendor/cookie-notice.min.css">
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="../assets/images/LUNE.svg">
+		<!-- ==============================================
+		Vendor Stylesheet
+		=============================================== -->
+		<link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/css/vendor/slider.min.css">
+		<link rel="stylesheet" href="../assets/css/main.css">
+		<link rel="stylesheet" href="../assets/css/vendor/icons.min.css">
+		<link rel="stylesheet" href="../assets/css/vendor/animation.min.css">
+		<link rel="stylesheet" href="../assets/css/vendor/gallery.min.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<!-- ==============================================
+		Custom Stylesheet
+		=============================================== -->
+		<link rel="stylesheet" href="../assets/css/default.css">
+		<!-- ==============================================
+		Theme Settings
+		=============================================== -->
+		<style>
+			:root {
+			  --header-bg-color: #111117;
+			  --nav-item-color: #f5f5f5;
+			  --top-nav-item-color: #f5f5f5;
+			  --hero-bg-color: #03071e;
 
-        <!-- ==============================================
-        Custom Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="../assets/css/default.css">
-        <link rel="stylesheet" href="../assets/css/theme-light-blue.css">
+			  --section-1-bg-color: #f5f5f5;
+			  --section-2-bg-color: #111117;
+			  --section-3-bg-color: #03071e;
+			  --section-4-bg-color: #eeeeee;
+			  --section-5-bg-color: #f5f5f5;
+			  --section-6-bg-color: #111117;
 
-        <!-- ==============================================
-        Theme Settings
-        =============================================== -->
-        <style>
-            :root {
-                --header-bg-color: #111117;
-                --nav-item-color: #f5f5f5;
-                --top-nav-item-color: #f5f5f5;
-                --hero-bg-color: #03071e;
+			  --card-bg-color: #16161c;
 
-                --section-1-bg-color: #f5f5f5;
-                --section-2-bg-color: #111117;
-                --section-3-bg-color: #03071e;
-                --section-4-bg-color: #eeeeee;
-                --section-5-bg-color: #f5f5f5;
-                --section-6-bg-color: #111117;
-
-                --card-bg-color: #16161c;
-
-                --footer-bg-color: #16161c;
-            }
-        </style>
-
-    </head>
+			  --footer-bg-color: #16161c;
+			}
+		</style>
+	</head>
 
     <body class="home" style=" odd p-0 featured">
 			<div id="particles-background">
@@ -808,8 +794,8 @@ width:80% !important;
             </div>
         </section>
 
-        <!-- Testimonials -->
-        <section id="testimonials" class="section-1 odd carousel custom featured">
+        <!-- Feedback -->
+        <section id="feedback" class="section-1 odd carousel custom featured">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row text-center intro">
@@ -1319,19 +1305,12 @@ width:80% !important;
 			</div>
 		</div>
 
-
-
         <!-- Scroll [to top] -->
         <div id="scroll-to-top" class="scroll-to-top">
             <a href="#header" class="">
                 <i class="icon-arrow-up"></i>
             </a>
         </div>
-
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
 
         <!-- ==============================================
         Vendor Scripts
