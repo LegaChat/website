@@ -784,11 +784,11 @@ button {
 	box-sizing: content-box;
 	width: 200px;
 	height: 50px;
-	border-bottom: 1200px solid rgba(44, 255, 255, .25) !important;
-	border-left: 190px solid transparent;
-	border-right: 190px solid transparent;
+	border-bottom: 4000px solid rgba(44, 255, 255, .25) !important;
+	border-left: 490px solid transparent;
+	border-right: 490px solid transparent;
 	position: absolute;
-	left: -140px;
+	left: -440px;
 	right: 0px;
 	top: 270px;
 	margin: 0px auto;
