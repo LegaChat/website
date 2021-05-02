@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["dark-moon-cygwin-windows-portable"]; ?>
 		<title>Dark Moon Cygwin Portable - L’univers « Linux » Portable sous Windows !</title>
-		<meta name="description" content="Dark Moon - Logiciel Dark Moon Cygwin Portable - L’univers « Linux » Portable sous Windows | Outil réseau & sécurité | Outils de développement GCC/GNU">
-		<meta name="subject" content="Editeur de logiciel libre, Cygwin Portable, Linux Portable">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
@@ -22,10 +23,10 @@
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
 									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Dark Moon Cygwin GNU Portable.</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Dark Moon Cygwin Portable. L’univers « Linux » Portable sous Windows ! Dark Moon est un logiciel Open Source développé par Mehdi Boutayeb Ferkatou.</p>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Dark Moon Cygwin Portable. L’univers « Linux » Portable sous Windows ! Dark Moon est un logiciel open source développé par Mehdi Boutayeb Ferkatou.</p>
 									<a href="https://www.microsoft.com/store/apps/9PJ369WKBV7F" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										TÉLÉCHARGER
-										<i class="fab fa-windows" style="font-size:25px; margin-left: 10px; width: 0.5em;"></i>
+										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">download</i>
 									</a>
 								</div>
 							</div>
@@ -198,7 +199,7 @@ width:80% !important;
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class=" col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a  >
                             <i class=""></i>
                             <div class=""></div>
@@ -271,7 +272,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -285,7 +286,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class="col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div></div>
@@ -358,7 +359,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class=" col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a >
                             <i class=""></i>
                             <div class=""></div>
@@ -371,7 +372,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-                    <div class=" col-12 col-md-6">
+                    <div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div></div>
@@ -834,41 +835,13 @@ width:80% !important;
 			</div>
 		</div>
 
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
-
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
-
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <script src="assets/js/vendor/particles.min.js"></script>
-        <script src="assets/js/main.js"></script>
-
-        <!-- #endregion Global ========================= -->
-
-    </body>
-
+		<?php require_once("views/scripts.html"); ?>
+	</body>
 </html>

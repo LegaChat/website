@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Dark Moon - REST API sur mesure à Toulouse</title>
-		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Agence de conception et de création de REST API sur mesure à Toulouse pour Startup, Porteur de projet, SSII | Android - iOS - Application HTML5 - Windows - OS X - Java - Objective-C - C/C++  - Swift - Python - Unity">
-		<meta name="subject" content="Développement de REST API sur mesure à Toulouse">
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["developpement-application-web-toulouse"]; ?>
+		<title>Dark Moon - Entreprise de développement web</title>
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
-	<body class="home" style=" odd p-0 featured">
+	<body class="home" style=" odd p-0 featured">=
 		<?php
 			require_once("views/particles.html");
 			require_once("views/header.html");
@@ -21,9 +22,12 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Développement & Intégration d'API à Toulouse</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de de développement et d'intégration d'API, développement applicatif sur environement Cloud à Toulouse.</p>
-									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">ON VOUS RAPPELLE<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i></a>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Entreprise de développement web</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application web FullStack (PHP, C#, Java/Angular, NodeJs, ReactJs) pour porteur de projet, PME et client grand compte.</p>
+									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
+										ON VOUS RAPPELLE
+										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -35,56 +39,57 @@
 			</div>
 		</section>
 
+
         <!-- Services -->
         <section id="services" class="section-1 odd offers featured custom">
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
                         <h2 class="super effect-static-text">Nos Services</h2>
-                        <p class="text-max-800">Construisez le workflow de votre API avec les services suivants :</p>
+                        <p class="text-max-800">Pourquoi Choisir Dark Moon pour vos besoins de développement d'applications Web à Toulouse ?</p>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-globe color-item"></i>
-                            <h4>Vous Possédez Le Code</h4>
-                            <p>Nous distribuons l'application et apportons des modifications pour les utilisateurs.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <h4>Vous possédez le code</h4>
+                            <p>Une fois l'application terminée, nous vous transférons le code source.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
 						</div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-basket"></i>
-                            <h4>Experts en API internes</h4>
-                            <p>Dark Moon est composé de développeurs d'API & bases de données. <a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
-                            <i class="icon icon-screen-smartphone"></i>
                             <h4>Responsabilité Locale</h4>
                             <p>Nous sommes toujours disponibles pour des réunions en face à face.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
+                            <i class="icon icon-screen-smartphone"></i>
+                            <h4>Développement</h4>
+                            <p>Vous bénéficiez d'une équipe entièrement contrôlée, certifiée et expérimentée.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card">
                             <i class="icon icon-layers"></i>
-                            <h4>Transparence Totale</h4>
-                            <p>Nous nous engageons à 360° sur l'état du projet, le budget, les délais.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <h4>Webdesign</h4>
+                            <p>Vous bénéficiez d’une équipe expérimentée de développeur d’interface UI/UX.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
-                            <h4>Développement</h4>
-                            <p>Nos développeurs sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <h4>Transparence Totale</h4>
+                            <p>Nous nous engageons à 360° sur l'état du projet, le budget, les délais.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
                             <h4>Assurance qualité</h4>
-                            <p>Les API sont méticuleusement testées pour valider tout bogues potentiels.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Les applications web sont testées pour valider tout bogues potentiels.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -168,8 +173,6 @@ width:80% !important;
 
 </style>
 
-
-
         <section id="get" class="section-1 hero odd p-0">
             <div class="swiper-container no-slider animation slider-h-75">
                 <div class="swiper-wrapper">
@@ -181,7 +184,7 @@ width:80% !important;
 						<h2 class="titre-modale super effect-static-text" style="">Expert Toulousain.</h2>
 					</header>
 					<div class="container container1">
-						<p class="p-modale">Nous sommes animés par la créativité. Nous créons des API innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché.</p>
+						<p class="p-modale">Nous sommes animés par la créativité. Nous créons des applications web innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
 					<div class="d-sm-inline-flex mt-3">
                         <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
@@ -194,11 +197,14 @@ width:80% !important;
             </div>
         </section>
 
+
+
+
         <!-- About [video] -->
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -208,8 +214,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Refonte d'API à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Services de <u class="bold-mot">refonte et modernisation d'API</u> interne pour votre entreprise à Toulouse</p>
+                                <h2 class="h-phoneOnly super effect-static-text">Entreprise de développement d'application web.</h2>
+                                <p class="p-phoneOnly">Dark Moon développe des <u class="bold-mot">applications web personnalisées</u> hautes performances. Conçu pour être interactif avec créativité.</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -219,8 +225,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Renforcez votre entreprise en région toulousaine</h4>
-                                        <p class="appear p-phoneOnly">Renforcez votre entreprise en rassemblant toutes les <u class="bold-mot">données et informations</u> via des API.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="h-phoneOnly">Application web sur mesure</h4>
+                                        <p class="p-phoneOnly">Dark Moon donne vie à vos projets et vous aide à optimiser le <u class="bold-mot">management opérationnel</u> de votre entreprise avec la création d'applications Web performantes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -228,8 +234,94 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Intégration transparente à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">Dark Moon maximise l'usage des <u class="bold-mot">applications d'entreprise</u> en les intégrant de manière transparente.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="h-phoneOnly">Conception avancée d'application web</h4>
+                                        <p class="p-phoneOnly">Nous développons et concevons des <u class="bold-mot">applications web sur mesure</u> pour vous aider à atteindre vos objectifs commerciaux grâce à nos moyens de conception et de développement avancées.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="video" class="section-1 highlights image-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="h-phoneOnly super effect-static-text">Gamme d'application web.</h2>
+                                <p class="p-phoneOnly">Dark Moon propose une gamme complète d'applications web fournies pour diverses <u class="bold-mot">fonctions commerciales.</u></p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-trophy"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="h-phoneOnly">Domaine d'activité</h4>
+                                        <p class="p-phoneOnly">Nous sommes confrontés aux tendances et défis dans ces différents <u class="bold-mot">domaines d’activités</u>, et concevons les solutions qui répondent le mieux aux besoins de nos clients.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-diamond"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="h-phoneOnly">Objectif commercial</h4>
+                                        <p class="p-phoneOnly">Nos applications web <u class="bold-mot">sur mesure</u> sont alignées avec vos objectifs commerciaux.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="centering col-12 col-md-6">
+                        <a>
+                            <i class=""></i>
+                            <div class=""></div>
+                            <img class="appear floating" src="assets/images/7.svg" class="fit-image" alt="dark moon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="video" class="section-1 highlights image-left">
+            <div class="container">
+                <div class="row">
+					<div class="centering col-12 col-md-6">
+                        <a>
+                            <i class=""></i>
+                            <div class=""></div>
+                            <img class="appear floating" src="assets/images/6.svg" class="fit-image" alt="dark moon">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="h-phoneOnly super effect-static-text">Processus de conception web.</h2>
+                                <p class="p-phoneOnly">Notre <u class="bold-mot">processus de développement d'applications Web</u> sur mesure à Toulouse s'architecture autour des fonctions suivantes:</p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-trophy"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="h-phoneOnly">Architecture d'application web</h4>
+                                        <p class="p-phoneOnly">Nous concevons des maquettes sur le fonctionnement et l’architecture de votre application tout en vous proposant des concepts <u class="bold-mot">UI/UX</u> en harmonie avec vos besoins.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-diamond"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="h-phoneOnly">Développement d’application web</h4>
+                                        <p class="p-phoneOnly">Dès lors que <u class="bold-mot">l’architecture de l’application</u> que nous vous soumettons est validée, nous démarrons le développement de l’application web.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -245,8 +337,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Développement à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Services de conception et <u class="bold-mot">développement d'API</u> d'entreprise <u class="bold-mot">sur-mesure</u> à Toulouse.</p>
+                                <h2 class="h-phoneOnly super effect-static-text">Exigence commerciale.</h2>
+                                <p class="p-phoneOnly">L'assurance qualité est un critère fondamental du processus de <u class="bold-mot">conception</u> de l'application Web</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -256,8 +348,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Application métier développée à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">Nous <u class="bold-mot">développons des API</u> pour accéder de manière transparente aux fonctions applicatives.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="h-phoneOnly">Découverte</h4>
+                                        <p class="p-phoneOnly">Nous effectuerons une recherche complète et systématique des <u class="bold-mot">besoins commerciaux</u> et une analyse des écarts. <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -265,63 +357,19 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Protocoles de développement d'API</h4>
-                                        <p class="appear p-phoneOnly">Nous utilisons les <u class="bold-mot">ateliers de génie logiciel et protocoles</u> de développement d'API les plus avancés.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="h-phoneOnly">Test d'assurance qualité</h4>
+                                        <p class="p-phoneOnly">Nous testons votre application web en phase de <u class="bold-mot">bêta test</u> afin de pouvoir apporter les ultimes correctifs avant la livraison et la mise en production de votre solution web.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
-                            <img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
+                            <img class="appear floating" src="assets/images/5.svg" class="fit-image" alt="dark moon">
                         </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-		<section id="video" class="section-1 highlights image-left">
-            <div class="container">
-                <div class="row appear">
-					<div class="col-12 col-md-6">
-                        <a>
-                            <i class=""></i>
-                            <div class=""></div>
-                            <img class="appear floating" src="assets/images/3.svg" class="fit-image" alt="dark moon">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Intégration d'API à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">Services <u class="bold-mot">d'intégration d'API</u> personnalisés <u class="bold-mot">sur mesure</u> à Toulouse.</p>
-                            </div>
-                        </div>
-                        <div class="row items">
-                            <div class="col-12 p-0">
-                                <div class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-trophy"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Traitement des données</h4>
-                                        <p class="appear p-phoneOnly">Afin d'aligner les résultats avec les <u class="bold-mot">données d'autres applications</u>, les API doivent être intégrées.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
-                                    </div>
-                                </div>
-                                <div class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-diamond"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Pratiques réseaux</h4>
-                                        <p class="appear p-phoneOnly">Vous obtiendrez une solution entièrement conçue en fonction des besoins de votre <u class="bold-mot">application métier</u> et de vos besoins spécifiques.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -483,14 +531,14 @@ width:80% !important;
                         <div class="card no-hover">
                             <i class="icon icon-basket"></i>
                             <h4>Formation</h4>
-                            <p>Nos équipes de formateurs vous cadrent pour l'exploitation de votre API.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Nos équipes de formateurs vous cadrent pour le maniement de votre app web.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card no-hover">
                             <i class="icon icon-screen-smartphone"></i>
                             <h4>Activités</h4>
-                            <p>Nos services comprennent la stratégie, le conseil, la conception, le développement.<a style="color:#fff" href="contact.html"> En savoir plus</a> </p>
+                            <p>Nos services comprennent la stratégie, le conseil, la conception, le développement...<a style="color:#fff" href="contact.html"> En savoir plus</a> </p>
                         </div>
                     </div>
                 </div>
@@ -609,10 +657,10 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR DE REST API</h2>
+						<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR D'APPLICATION</h2>
 					</header>
 					<div class="container container1">
-						<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'applications, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
+						<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'application, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
 					<div class="d-sm-inline-flex mt-3">
                         <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
@@ -651,7 +699,7 @@ width:80% !important;
 				<div class="modal-content phoneOnly" style="width:60%;border-radius:6px;border:0px; background-image: linear-gradient(45deg, #1E2334 25%, #344068 65%);">
 					<header class="container">
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;">×</a>
-						<h2 class="super effect-static-text" style="text-align:left;">Mentions lgales</h2>
+						<h2 class="super effect-static-text" style="text-align:left;">Mentions légales</h2>
 					</header>
 					<div class="container">
 						<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
@@ -663,39 +711,14 @@ width:80% !important;
 				</div>
 			</div>
 		</div>
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
 
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-		<script src="modal.js"></script>
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <script src="assets/js/vendor/particles.min.js"></script>
-        <script src="assets/js/main.js"></script>
-
-        <!-- #endregion Global ========================= -->
-
-    </body>
-
+		<?php require_once("views/scripts.html"); ?>
+	</body>
 </html>

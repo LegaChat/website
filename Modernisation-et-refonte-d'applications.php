@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Dark Moon - Pentest Prestashop - Entreprise de Cybersécurité à Toulouse</title>
-		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Pentest Prestashop - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII">
-		<meta name="subject" content="Pentest Prestashop">
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["modernisation-et-refonte-applications-toulouse"]; ?>
+		<title>Dark Moon - Développement et refonte d'application</title>
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
@@ -21,8 +22,8 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Pentest Prestashop à Toulouse</h1>
-									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Entreprise de sécurité informatique & cybersécurité à Toulouse, service de Pentest Prestashop, testeur de site web Prestashop.</p>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Modernisation et refonte d'application</h1>
+									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Agence de conception et de création d'application. Expert en modernisation et refonte d'application mobile, web et bureau.</p>
 									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										ON VOUS RAPPELLE
 										<i class="material-icons" style="font-size:25px; margin-left: 10px; width: 0.5em;">arrow_forward</i>
@@ -44,50 +45,50 @@
                 <div class="row text-center intro">
                     <div class="col-12">
                         <h2 class="super effect-static-text">Nos Services</h2>
-                        <p class="text-max-800">Validez la politique de sécurité de votre organisation avec les services de Pentests suivants à Toulouse :</p>
+                        <p class="text-max-800">Construisez le workflow de votre Application avec les services suivants :</p>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-4 margin-item">
+                    <div class="col-12 col-md-6 col-lg-4 margin-item ">
                         <div class="card featured">
                             <i class="icon icon-globe color-item"></i>
-                            <h4>Audit d'Application Web</h4>
-                            <p>Les Web App sont complexes, ouvrant des possibilités d'attaques.<a style="color:#fff" href="Pentest-web-toulouse.php"> En savoir plus</a></p>
+                            <h4>Passez en direct</h4>
+                            <p>Nous distribuons l'application et apportons des modifications pour les utilisateurs.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
 						</div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-basket"></i>
-                            <h4>Test d'intrusion PCI</h4>
-                            <p>Destinés à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS-toulouse.php"> En savoir plus</a></p>
+                            <h4>Maintenance</h4>
+                            <p>Nous vous proposons une formule d'assistance et de  maintenance d'application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-screen-smartphone"></i>
-                            <h4>Test d'Intrusion Réseau</h4>
-                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
+                            <h4>Objectifs</h4>
+                            <p>Nous étudions votre projet et réalisons une étude de faisabilité de ce dernier.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-layers"></i>
-                            <h4>Audit de code</h4>
-                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code-toulouse.php"> En savoir plus</a></p>
+                            <h4>Maquettes</h4>
+                            <p>Nous vous proposons des maquettes et des simulations de votre application.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
-                            <h4>Audit App Mobile</h4>
-                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Audit-d’application-mobile-toulouse.php"> En savoir plus</a></p>
+                            <h4>Développement</h4>
+                            <p>Nos développeurs sont entièrement dévoués pour donner vie à votre projet.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
-                            <h4>Solution de sécurité</h4>
-                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
+                            <h4>Assurance qualité</h4>
+                            <p>Les applications modernisés sont testées pour valider tout bogues potentiels.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -171,6 +172,7 @@ width:80% !important;
 
 </style>
 
+
         <section id="get" class="section-1 hero odd p-0">
             <div class="swiper-container no-slider animation slider-h-75">
                 <div class="swiper-wrapper">
@@ -179,10 +181,10 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">Expert à Toulouse.</h2>
+						<h2 class="titre-modale super effect-static-text" style="">Expert toulousain.</h2>
 					</header>
 					<div class="container container1">
-						<p class="p-modale">Nous sommes animés par la créativité. Nous réalisons des Pentest Prestashop complets pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
+						<p class="p-modale">Nous sommes animés par la créativité. Nous modernisons des applications innovantes pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché toulousain.</p>
 					<div class="d-sm-inline-flex mt-3">
                         <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
@@ -198,8 +200,8 @@ width:80% !important;
         <!-- About [video] -->
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
-                <div class="row appear ">
-					<div class="col-12 col-md-6">
+                <div class="row appear">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -209,8 +211,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Pentest Prestashop à Toulouse.</h2>
-                                <p class="appear p-phoneOnly">À titre de comparaison avec votre site web Prestashop. Une étude montre que <u class="bold-mot">99,7%</u> des sites Web ont au moins une <u class="bold-mot">vulnérabilité.</u> </p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Refonte d'application.</h2>
+                                <p class="appear p-phoneOnly">Dark Moon est spécialisé dans la refonte et migration des applications en région Toulousaine</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -220,8 +222,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Renforcez vos défenses</h4>
-                                        <p class="appear p-phoneOnly">Nous réalisons un Pentest de votre site web Prestashop et apportons des solutions pour corriger les <u class="bold-mot">failles de sécurités</u> révélées par le Pentest Prestashop. <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Logiciels obsolètes</h4>
+                                        <p class="appear p-phoneOnly">Les entreprises continuent fréquemment de distribuer des <u class="bold-mot">applications</u> et des logiciels obsolètes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -229,8 +231,8 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Pentest Prestashop préventif à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">Il est important de réaliser un <u class="bold-mot">Pentest Prestashop</u> pour éviter qu’un pirate ne puisse pas nuire aux activités de votre entreprise et affecter sa réputation.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Outils modernes</h4>
+                                        <p class="appear p-phoneOnly">Les <u class="bold-mot">applications en fin de vie</u> ne permettent pas de profiter des fonctionnalités apportées par des outils technologiques modernes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -245,8 +247,8 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Effectuez dès maintenant un Pentest Prestashop !</h2>
-                                <p class="appear p-phoneOnly">Dark Moon réalise des Pentest Prestashop afin de mettre en évidence les <u class="bold-mot">vulnérabilités de votre site web</u> et vous apporte des solutions pour protéger votre site web Prestashop des pirates.</p>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Nos services de modernisation.</h2>
+                                <p class="appear p-phoneOnly">Nos Services de modernisation et de <u class="bold-mot">refonte d'application</u> sur mesure à Toulouse.</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -256,8 +258,8 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Test de robustesse de site web à Toulouse</h4>
-                                        <p class="appear p-phoneOnly">En procédant à des intégrations web non sécurisés et en employant des <u class="bold-mot">scripts PHP mal conçu</u>, sans compter les <u class="bold-mot">vulnérabilités</u> liées au cœur de Prestashop, vous vous rendez vulnérable aux yeux des pirates informatiques.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Convivialité et l'accessibilité</h4>
+                                        <p class="appear p-phoneOnly">Nous améliorerions la <u class="bold-mot">convivialité et l'accessibilité</u> de vos applications vieillissantes.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                                 <div class="row item">
@@ -265,25 +267,111 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Test d'intrusion à Toulouse</h4>
-                                        <p class="appear p-phoneOnly"> Nous recherchons et corrigeons les <u class="bold-mot">failles de sécurité</u> de votre site mit en évidence avec le Pentest Prestashop. <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <h4 class="appear h-phoneOnly">Processsus de refonte d'application</h4>
+                                        <p class="appear p-phoneOnly">Les <u class="bold-mot">applications modernisées</u> ont une interface utilisateur plus conviviale en accord avec les tendances du moment et une architecture plus solide.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
+                        <a>
+                            <i class=""></i>
+                            <div class=""></div>
+                            <img class="appear floating" src="assets/images/7.svg" class="fit-image" alt="dark moon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="video" class="section-1 highlights image-left">
+            <div class="container">
+                <div class="row appear ">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
                             <img class="appear floating" src="assets/images/6.svg" class="fit-image" alt="dark moon">
                         </a>
                     </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="appear h-phoneOnly super effect-static-text">Modernisation des applications.</h2>
+                                <p class="appear p-phoneOnly">Dark Moon expert en modernisation des applications héritées sur mesure à Toulouse.</p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-trophy"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Mises à niveaux</h4>
+                                        <p class="appear p-phoneOnly">Nous réalisons des mises à niveaux et des <u class="bold-mot">refontes d’application</u> de logiciel plus ou moins importantes selon les besoins et objectifs du client.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-diamond"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Domaines d’expertises</h4>
+                                        <p class="appear p-phoneOnly">Nos domaines d’expertise s’étendent aux bases de données, aux systèmes d’exploitation <u class="bold-mot">(SecDevOps)</u> l’IoT, le Web, le cloud, le mobile...<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+				<section id="video" class="section-1 highlights image-left">
+            <div class="container">
+                <div class="row appear ">
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="appear h-phoneOnly super effect-static-text">Migration et optimisation.</h2>
+                                <p class="appear p-phoneOnly">Nos services de migration et d'optimisation d'application web, bureau et mobile sur mesure à Toulouse.</p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-trophy"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Applications et logiciels obsolètes</h4>
+                                        <p class="appear p-phoneOnly">Nous réalisons une <u class="bold-mot">migration d’application</u> fluide et transparente incluant la migration des bases de données, des plateformes, des systèmes d’exploitation. <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-diamond"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 class="appear h-phoneOnly">Optimisation d'application</h4>
+                                        <p class="appear p-phoneOnly">Si vous souhaitez simplement améliorer les <u class="bold-mot">fonctionnalités de l'application</u> pour la rendre plus conviviale, réactive et facile à entretenir, nous proposons des services d’optimisation d'application.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="centering col-12 col-md-6">
+                        <a>
+                            <i class=""></i>
+                            <div class=""></div>
+                            <img class="appear floating" src="assets/images/2.svg" class="fit-image" alt="dark moon">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <?php require_once("views/team.php"); ?>
+				<?php require_once("views/team.php"); ?>
 
         <!-- Feedback -->
         <section id="feedback" class="section-1 odd carousel feedback custom featured">
@@ -300,9 +388,9 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/hervé.svg" alt="Adams Baker" class="person">
-                                        <h4>Hervé</h4>
-                                        <p>Pentest web rapide et efficace, équipe de professionnel que je recommande !</p>
+                                        <img src="assets/images/julien.svg" alt="Adams Baker" class="person">
+                                        <h4>Julien </h4>
+                                        <p>Très satisfait de l'intégration d'une API réalisé par Dark Moon.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
@@ -326,9 +414,9 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/régis.svg" alt="Mary Evans" class="person">
-                                        <h4>Régis</h4>
-                                        <p>Pentest d'intrusion abordable, équipe réactive, Expérience positive.</p>
+                                        <img src="assets/images/alexandre.svg" alt="Mary Evans" class="person">
+                                        <h4>Alexandre</h4>
+                                        <p>Site web applicatif livré à temps, Design au top ! Merci à vous.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
@@ -352,9 +440,9 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/marc.svg" alt="Sarah Lopez" class="person">
-                                        <h4>Marc</h4>
-                                        <p>Équipe de cybersécurité très impliquée et compétente. Merci à vous.</p>
+                                        <img src="assets/images/nicolas.svg" alt="Sarah Lopez" class="person">
+                                        <h4>Nicolas</h4>
+                                        <p>Sérieux, à l'écoute et réactif, Merci à vous pour vos conseils B & I.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
@@ -375,9 +463,9 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/joachim.svg" alt="Joseph Hills" class="person">
-                                        <h4>Joachim</h4>
-                                        <p>Équipe très ouverte, chef de projet compétent en Audit, RAS.</p>
+                                        <img src="assets/images/pascal.svg" alt="Joseph Hills" class="person">
+                                        <h4>Pascal</h4>
+                                        <p>Dark Moon s'est montré compétent pour la création de mon e-commerce.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
@@ -398,9 +486,9 @@ width:80% !important;
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/joan.svg" alt="Karen Usman" class="person">
-                                        <h4>Joan</h4>
-                                        <p>Équipe de vrais professionnel, j'ai du plaisir à travailler avec vous !</p>
+                                        <img src="assets/images/elodie.svg" alt="Karen Usman" class="person">
+                                        <h4>Elodie</h4>
+                                        <p>Bonne formation WordPress dispensée par vos soins très efficace.</p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
@@ -425,210 +513,108 @@ width:80% !important;
             </div>
         </section>
 
-        <section id="features" class="section-1 odd offers featured">
-            <div class="container">
-                <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card no-hover">
-                            <i class="icon icon-globe"></i>
-                            <h4>Confiance </h4>
-                            <p>Tous nos projets sont soutenus par une solide équipe de support et de maintenance.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card no-hover">
-                            <i class="icon icon-basket"></i>
-                            <h4>Formation</h4>
-                            <p>Nos équipes de formateurs vous cadrent pour l'exploitation de votre infrastructure.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card no-hover">
-                            <i class="icon icon-screen-smartphone"></i>
-                            <h4>Activités</h4>
-                            <p>Nos services comprennent le pentesting, l'audit, le développement.<a style="color:#fff" href="contact.html"> En savoir plus</a> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
 <!-- Pricing -->
         <section id="pricing" class="section-1 odd plans featured">
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
-                        <h2 class="super effect-static-text">Que comprennent les tests d’intrusions ?</h2>
-                        <p class="text-max-800">Choisissez la formule In-Scope idéale pour ce dont vous avez besoin. Nous travaillons avec des prix abordables pour tous les types de projet.</p>
+                        <h2 class="super effect-static-text">Plans et tarification</h2>
+                        <p class="text-max-800">Choisissez la formule web idéale pour ce dont vous avez besoin. Nous travaillons avec des prix abordables pour tous les types de projet.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
                         <div class="card">
                             <i class="icon icon-handbag"></i>
-                            <h4>Jusqu'à 5 IPs</h4>
-							<p style="font-weight: normal;">Cloud, Infra, Base de données, WIFI IEEE 802.11 ...</p>
-                            <span class="price"><i>€</i>500</span>
+                            <h4>Essential</h4>
+                            <span class="price"><i>€</i>49</span>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>XSS (Cross-Site Scripting) </span>
+                                    <span>Assistance téléphonique</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Falsification de requête intersite (CSRF)</span>
+                                    <span>Système de ticket</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Accès non autorisés de données entre locataires</span>
+                                    <span>Assistance par e-mail</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Références d'objet direct non sécurisées</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
+                                    <span>Formation</span>
+                                    <i class="icon-min m-0 icon-close text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Vulnérabilités d'injection et d'authentification</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Exécution de code côté serveur</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Escalade de privilèges</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Mauvaise configuration de sécurité significative (si cette dernière pas causée par l'utilisateur).</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Répertoire Traversal</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Divulgation d'information</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Redirections ouvertes</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
+                                    <span>Infogérance</span>
+                                    <i class="icon-min m-0 icon-close text-right"></i>
                                 </li>
                             </ul>
                             <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
                         </div>
                     </div>
-<div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
+                    <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
                         <div class="card">
-                            <i class="icon icon-handbag"></i>
-                            <h4>Jusqu'à 25 IPs</h4>
-							<p style="font-weight: normal;">Cloud, Infra, Base de données, WIFI IEEE 802.11 ...</p>
-                            <span class="price"><i>€</i>1000</span>
+                            <i class="icon icon-fire"></i>
+                            <h4>Standard</h4>
+                            <span class="price"><i>€</i>99</span>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>XSS (Cross-Site Scripting) </span>
+                                    <span>Formation CMS (Wordpress...)</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Falsification de requête intersite (CSRF)</span>
+                                    <span>Formation solution propriétaire</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Accès non autorisés de données entre locataires</span>
+                                    <span>Transfert de code & contenu</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Références d'objet direct non sécurisées</span>
+                                    <span>Formation Optimisation SEO</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Vulnérabilités d'injection et d'authentification</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Exécution de code côté serveur</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Escalade de privilèges</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Mauvaise configuration de sécurité significative (si cette dernière pas causée par l'utilisateur).</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Répertoire Traversal</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Divulgation d'information</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Redirections ouvertes</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
+                                    <span>Infogérance</span>
+                                    <i class="icon-min m-0 icon-close text-right"></i>
                                 </li>
                             </ul>
                             <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
                         </div>
                     </div>
-					<div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
+                    <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
                         <div class="card">
-                            <i class="icon icon-handbag"></i>
-                            <h4>Jusqu'à 100 IPs </h4>
-							<p style="font-weight: normal;">Datacenter, Client lourd, Base de données, WIFI IEEE 802.11 ...</p>
-                            <span class="price"><i>€</i>1500</span>
+                            <i class="icon icon-diamond"></i>
+                            <h4>Premium</h4>
+                            <span class="price"><i>€</i>129</span>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>XSS (Cross-Site Scripting) </span>
+                                    <span>Sys-Administration Cloud & VPS</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Falsification de requête intersite (CSRF)</span>
+                                    <span>Maintenance et sécurité</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Accès non autorisés de données entre locataires</span>
+                                    <span>Maintenance site web</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Références d'objet direct non sécurisées</span>
+                                    <span>Distribution CloudFare & SSL</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Vulnérabilités d'injection et d'authentification</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Exécution de code côté serveur</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Escalade de privilèges</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Mauvaise configuration de sécurité significative (si cette dernière pas causée par l'utilisateur).</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Répertoire Traversal</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Divulgation d'information</span>
-                                    <i class="icon-min m-0 icon-check text-right"></i>
-                                </li>
-								<li class="list-group-item d-flex justify-content-between align-items-center text-left">
-                                    <span>Redirections ouvertes</span>
+                                    <span>SLA</span>
                                     <i class="icon-min m-0 icon-check text-right"></i>
                                 </li>
                             </ul>
                             <a href="contact.html" class="btn mx-auto primary-button"><i class="icon-arrow-right-circle"></i>CHOISIR</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -641,23 +627,22 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">PENTEST PRESTASHOP</h2>
+						<h2 class="titre-modale super effect-static-text" style="">CRÉATEUR D'APPLICATION</h2>
 					</header>
 					<div class="container container1">
-						<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'application, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
+						<p class="p-modale">Dark Moon est un éditeur de logiciel toulousain et un prestataire informatique proposant des services de développement d'applications, de création web, de cybersécurité et des services d'administration systèmes & réseaux & DBA.</p>
 					<div class="d-sm-inline-flex mt-3">
                         <a href="contact.html" data-aos="zoom-out-up" data-aos-delay="1200" class="bouton-modale bouton4k ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
 					</div>
 					<p></p>
 				</div>
-
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </section>
 
-        <?php require_once("views/footer.html"); ?>
+				<?php require_once("views/footer.html"); ?>
 
         <!-- Modal [responsive menu] -->
         <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
@@ -689,7 +674,7 @@ width:80% !important;
 					<div class="container">
 						<p style="color: #a1caff;">SIREN 847 659 612 | SIRET 847 659 612 00018 | Code APE / NAF 5829B / Edition de logiciels outils de développement et de langages.</p>
 					<div class="d-sm-inline-flex mt-3">
-                        <a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
+						<a href="contact.html" style=" color:#1E2334; background-image: linear-gradient(45deg, #7697FF 25%, #FF83FD 65%)" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto mr-md-0 mt-4 mt-sm-0 btn primary-button"><i class="icon-rocket"></i>DEVIS GRATUIT</a>
 					</div>
 					</div>
 					<p></p>
@@ -697,41 +682,13 @@ width:80% !important;
 			</div>
 		</div>
 
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
-
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
-
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <script src="assets/js/vendor/particles.min.js"></script>
-        <script src="assets/js/main.js"></script>
-
-        <!-- #endregion Global ========================= -->
-
-    </body>
-
+		<?php require_once("views/scripts.html"); ?>
+	</body>
 </html>

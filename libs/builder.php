@@ -75,33 +75,33 @@
 
 				if(isset($data[$i]['yt'])) {
 					$html .= "<li class=\"nav-item\">
-						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['yt']}\" class=\"nav-link\">
-						<i class=\"icon-social-youtube\"></i>
-						</a>
+							<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['yt']}\" class=\"nav-link\">
+								<i class=\"icon-social-youtube ml-2 mr-2\"></i>
+							</a>
 						</li>";
 				}
 
 				if(isset($data[$i]['fb'])) {
 					$html .= "<li class=\"nav-item\">
-						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['fb']}\" class=\"nav-link\">
-						<i class=\"icon-social-facebook\"></i>
-						</a>
+							<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['fb']}\" class=\"nav-link\">
+								<i class=\"icon-social-facebook ml-2 mr-2\"></i>
+							</a>
 						</li>";
 				}
 
 				if(isset($data[$i]['in'])) {
 					$html .= "<li class=\"nav-item\">
-						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['in']}\" class=\"nav-link\">
-						<i class=\"icon-social-linkedin\"></i>
-						</a>
+							<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['in']}\" class=\"nav-link\">
+								<i class=\"icon-social-linkedin ml-2 mr-2\"></i>
+							</a>
 						</li>";
 				}
 
 				if(isset($data[$i]['tt'])) {
 					$html .= "<li class=\"nav-item\">
-						<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['tt']}\" class=\"nav-link\">
-						<i class=\"icon-social-twitter\"></i>
-						</a>
+							<a rel=\"nofollow\" target=\"_blank\" href=\"{$data[$i]['tt']}\" class=\"nav-link\">
+								<i class=\"icon-social-twitter ml-2 mr-2\"></i>
+							</a>
 						</li>";
 				}
 

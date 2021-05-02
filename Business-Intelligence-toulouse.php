@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["business-intelligence-toulouse"]; ?>
 		<title>Dark Moon - Business Intelligence à Toulouse</title>
-		<meta name="description" content="Dark Moon - Business Intelligence Toulouse - Contactez-nous au ☎ 07 66 28 90 11 ">
-		<meta name="subject" content="Outils de Business Intelligence à Toulouse">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
@@ -204,7 +205,7 @@ width:80% !important;
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear ">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -235,7 +236,7 @@ width:80% !important;
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
                                         <h4 class="appear h-phoneOnly">Données commerciales</h4>
-                                        <p class="appear p-phoneOnly">Au cours des dix dernières années, tirer parti du potentiel des <u class="bold-mot">données commerciales</u> critiques à été mit en avant par divers chefs d'entreprise à travers le monde.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <p class="appear p-phoneOnly">Depuis ces dix dernières années, Le potentiel des <u class="bold-mot">données commerciales</u> tend à prend une place de premier plan chez divers entreprises à travers le monde.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -277,7 +278,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -290,7 +291,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear ">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -301,7 +302,7 @@ width:80% !important;
                         <div class="row intro">
                             <div class="col-12 p-0">
                                 <h2 class="appear h-phoneOnly super effect-static-text">Avantages B & I en Occitanie.</h2>
-                                <p>Pourquoi les entreprises Toulousaines ont Besoin de Business Intelligence ?</p>
+                                <p>Pourquoi les entreprises toulousaines ont besoin de Business Intelligence ?</p>
                             </div>
                         </div>
                         <div class="row items">
@@ -363,7 +364,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -416,7 +417,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/alexandre.svg" alt="Mary Evans" class="person">
                                         <h4>Alexandre</h4>
                                         <p>Site web applicatif livré à temps, Design au top ! Merci à vous.</p>
@@ -442,7 +443,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/nicolas.svg" alt="Sarah Lopez" class="person">
                                         <h4>Nicolas</h4>
                                         <p>Sérieux, à l'écoute et réactif, Merci à vous pour vos conseils B & I.</p>
@@ -465,7 +466,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/pascal.svg" alt="Joseph Hills" class="person">
                                         <h4>Pascal</h4>
                                         <p>Dark Moon s'est montré compétent pour la création de mon e-commerce.</p>
@@ -488,7 +489,7 @@ width:80% !important;
                             </div>
                             <div class="swiper-slide slide-center text-center item">
                                 <div class="row card">
-                                    <div class="col-12">
+                                    <div class="centering col-12">
                                         <img src="assets/images/elodie.svg" alt="Karen Usman" class="person">
                                         <h4>Elodie</h4>
                                         <p>Bonne formation WordPress dispensée par vos soins très efficace.</p>
@@ -712,39 +713,14 @@ width:80% !important;
 				</div>
 			</div>
 		</div>
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
 
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-		<script src="modal.js"></script>
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <script src="assets/js/vendor/particles.min.js"></script>
-        <script src="assets/js/main.js"></script>
-
-        <!-- #endregion Global ========================= -->
-
-    </body>
-
+		<?php require_once("views/scripts.html"); ?>
+	</body>
 </html>

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<?php $meta = json_decode(file_get_contents("./constants/meta.json"), true)["audit-de-code-toulouse"]; ?>
 		<title>Dark Moon - Audit de code - Entreprise de Cybersécurité à Toulouse</title>
-		<meta name="description" content="Dark Moon - Contactez-nous au ☎ 07 66 28 90 11 - Audit de code - Entreprise de Cybersécurité à Toulouse - pour Startup, Porteur de projet, SSII">
-		<meta name="subject" content="Audit de code">
+		<meta name="description" content="<?php echo($meta["description"]); ?>">
+		<meta name="subject" content="<?php echo($meta["subject"]); ?>">
 		<meta name="author" content="Mehdi FERKATOU">
 		<?php require_once("views/head.html"); ?>
 	</head>
@@ -21,7 +22,7 @@
 						<div class="slide-content row" data-mask-768="80">
 							<div class="col-12 d-flex inner">
 								<div class="left align-self-center text-center text-md-left">
-									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Audit de code à toulouse.</h1>
+									<h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Audit de code source.</h1>
 									<p data-aos="zoom-out-up" data-aos-delay="800" class="p-police-size description">Entreprise de sécurité informatique & cybersécurité à Toulouse, service d'audit de code d'application, testeur de site web.</p>
 									<a href="telephone.html" class=" ml-auto mr-auto ml-md-0 mt-4 btn primary-button police-btn">
 										ON VOUS RAPPELLE
@@ -43,7 +44,7 @@
                 <div class="row text-center intro">
                     <div class="col-12">
                         <h2 class="super effect-static-text">Nos Services</h2>
-                        <p class="text-max-800">Validez la politique de sécurité de votre organisation avec les services de Pentests suivants :</p>
+                        <p class="text-max-800">Validez la politique de sécurité de votre organisation avec les services de Pentests suivants à Toulouse :</p>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
@@ -51,42 +52,42 @@
                         <div class="card featured">
                             <i class="icon icon-globe color-item"></i>
                             <h4>Audit d'Application Web</h4>
-                            <p>Les Web App sont complexes, ouvrant des possibilités d'attaques.<a style="color:#fff" href="contact.html"> En savoir plus</a></p>
+                            <p>Les Web App sont complexes, ouvrant des possibilités d'attaques.<a style="color:#fff" href="Pentest-web.php"> En savoir plus</a></p>
 						</div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-basket"></i>
                             <h4>Test d'intrusion PCI</h4>
-                            <p>Destinés à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS-toulouse.php"> En savoir plus</a></p>
+                            <p>Destiné à valider la protection des données sensibles des cartes bancaires. <a style="color:#fff" href="Pentest-PCI-DSS.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-screen-smartphone"></i>
                             <h4>Test d'Intrusion Réseau</h4>
-                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Test-d'intrusion-réseau-toulouse.php"> En savoir plus</a></p>
+                            <p>Test d'analyses IPS, problèmes de routage, analyse des ports de FTR MySQL, SSH, etc...<a style="color:#fff" href="Audit-de-sécurité-informatique.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-layers"></i>
                             <h4>Audit de code</h4>
-                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code-toulouse.php"> En savoir plus</a></p>
+                            <p>Réalisation d'analyse et d'audit de code, d'intégrité du package, des protocoles ...<a style="color:#fff" href="Audit-de-code.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
                             <h4>Audit App Mobile</h4>
-                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Audit-d’application-mobile-toulouse.php"> En savoir plus</a></p>
+                            <p>Nous réalisons des tests des sécurités EndPoint, la sécurité et l'architecture ...<a style="color:#fff" href="Pentest-d’application-mobile.php"> En savoir plus</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 margin-item">
                         <div class="card featured">
                             <i class="icon icon-bulb color-item"></i>
                             <h4>Solution de sécurité</h4>
-                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Développement-d'application-web-toulouse.php"> En savoir plus</a></p>
+                            <p>Développement et intégration de logiciel de sécurité informatique sur mesure.<a style="color:#fff" href="Entreprise-de-développement-web.php"> En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
@@ -179,7 +180,7 @@ width:80% !important;
 				<div class="content-box phoneOnly background-modale" style="width:60%;border-radius:6px;border:0px;">
 					<header class="container pixel-border4k" style="border-radius: 4px;" >
 						<a href="#" class="closebtn" style="font-size:2rem;color: #a1caff;"></a>
-						<h2 class="titre-modale super effect-static-text" style="">Expert à Toulouse.</h2>
+						<h2 class="titre-modale super effect-static-text" style="">Expert en audit de code.</h2>
 					</header>
 					<div class="container container1">
 						<p class="p-modale">Nous sommes animés par la créativité. Nous réalisons des tests audits de codes complets pour vous aider à obtenir de meilleurs résultats et à vous consolider sur le marché.</p>
@@ -201,7 +202,7 @@ width:80% !important;
         <section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -222,7 +223,7 @@ width:80% !important;
                                         <i class="icon icon-trophy"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Audit de code source à Toulouse</h4>
+                                        <h4 class="appear h-phoneOnly">Audit de code source.</h4>
                                         <p class="appear p-phoneOnly">L’audit de code permet de déterminer le <u class="bold-mot">niveau de sécurité du code source</u> de l'application et de répertorier toutes les violations possibles dans les points d'accès et les applications spécifiques.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
@@ -268,13 +269,13 @@ width:80% !important;
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
                                         <h4 class="appear h-phoneOnly">Contexte d’audit de code</h4>
-                                        <p class="appear p-phoneOnly">Préliminairement à la <u class="bold-mot">revue du code source</u>, il est important de comprendre le contexte et les principales caractéristiques du projet.                     <a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
+                                        <p class="appear p-phoneOnly">Préliminairement à la <u class="bold-mot">revue du code source</u>, il est important de comprendre le contexte et les principales caractéristiques du projet.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -289,7 +290,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -299,7 +300,7 @@ width:80% !important;
 					<div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Révision de code à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Révision de code.</h2>
                                 <p class="appear p-phoneOnly">Le code source est au cœur de chaque projet logiciel, il est donc très important de trouver toutes les erreurs liées à la <u class="bold-mot">sécurité</u> et de les <u class="bold-mot">corriger</u> avant que les pirates ne les repèrent.</p>
                             </div>
                         </div>
@@ -336,7 +337,7 @@ width:80% !important;
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <h2 class="appear h-phoneOnly super effect-static-text">Audit de code à Toulouse.</h2>
+                                <h2 class="appear h-phoneOnly super effect-static-text">Audit de code professionnel.</h2>
                                 <p class="appear p-phoneOnly">Dark Moon offre une garantie de résultat. Nous suivons les méthodes de travail suivant les recommandations <u class="bold-mot">ISO 9001</u> et la méthode du meilleur compromis.</p>
                             </div>
                         </div>
@@ -356,14 +357,14 @@ width:80% !important;
                                         <i class="icon icon-diamond"></i>
                                     </div>
                                     <div class="col-12 col-md-9 align-self-center">
-                                        <h4 class="appear h-phoneOnly">Audit multi-couche défensif et éthique logiciel à Toulouse</h4>
+                                        <h4 class="appear h-phoneOnly">Audit multi-couche défensif et éthique logiciel</h4>
                                         <p class="appear p-phoneOnly">Des tests d’intrusion à plusieurs niveaux de gestion, la <u class="bold-mot">gestion des risques</u> et la défense de l'audit interne sont effectuées pour s'assurer que les <u class="bold-mot">mesures de contrôle de la sécurité du réseau</u> sont correctement conçues.<a class="ensavoirplus" href="contact.html"> En savoir plus</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -378,7 +379,7 @@ width:80% !important;
 		<section id="video" class="section-1 highlights image-left">
             <div class="container">
                 <div class="row appear">
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -470,7 +471,7 @@ width:80% !important;
                             </div>
                         </div>
                     </div>
-					<div class="col-12 col-md-6">
+					<div class="centering col-12 col-md-6">
                         <a>
                             <i class=""></i>
                             <div class=""></div>
@@ -895,39 +896,14 @@ width:80% !important;
 				</div>
 			</div>
 		</div>
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
 
-        <!-- ==============================================
-        Google reCAPTCHA // Put your site key here
-        =============================================== -->
-        <script src="../www.google.com/recaptcha/api9516.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+		<!-- Scroll [to top] -->
+		<div id="scroll-to-top" class="scroll-to-top">
+			<a href="#header" class="">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <script src="assets/js/vendor/particles.min.js"></script>
-        <script src="assets/js/main.js"></script>
-
-        <!-- #endregion Global ========================= -->
-
-    </body>
-
+		<?php require_once("views/scripts.html"); ?>
+	</body>
 </html>
